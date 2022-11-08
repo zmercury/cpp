@@ -1,8 +1,3 @@
-### November 8, 2022
-
-
-
-```cpp
 #include <iostream>
 
 using namespace std;
@@ -11,4 +6,3 @@ int main() {
     cout << "Hello Sanothimi" << endl;
     return 0;
 }
-```
