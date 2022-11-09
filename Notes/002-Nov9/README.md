@@ -62,7 +62,7 @@ int main() {
     cout << "Enter breath: ";
     cin >> b;
     area = l*b;
-    cout << "The area is " << area;
+    cout << "The area is " << area << " sq.m";
     return 0;
 }
 ```
