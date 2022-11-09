@@ -12,7 +12,7 @@
 1.6	 Insertion and Extraction Operators
 1.7	Type conversion
 1.8	Dynamic memory allocation : new and delete operator 
-*Practical Works:*
+**Practical Works:**
 •	Install the compiler of C++. 
 •	Use Insertion and Extraction Operator.
 •	Use structure in C++ to bundle data 
@@ -25,7 +25,7 @@
 2.3	Default arguments
 2.4	Reference arguments
 2.5	Returning by reference
-*Practical Works:*
+**Practical Works:**
 •	Write program to implement inline function, overloaded function, default arguments, reference arguments and returning by reference
 
 
@@ -41,7 +41,7 @@
 3.7	Array in Class and Array of Objects 
 3.8	Static data member and Static member function 
 3.9	Friend function and friend class
-*Practical Works:*
+**Practical Works:**
 •	Create class and objects with data member and member function.  
 •	Declare and define member function and data member with visibility. 
 •	Create static function 
@@ -57,7 +57,7 @@
 4.5	Ambiguity due to multiple inheritance 
 4.6	Execution sequence of constructor and destructor in inheritance
 4.7	Containership
-*Practical Works:*
+**Practical Works:**
 •	Create different types of inheritance.
 •	 Write program to illustrate  execution sequence of constructor and destructor in inheritance
 •	Create containership
@@ -71,7 +71,7 @@
 5.3	Abstract Class 
 5.4	Runtime Polymorphism and Compile time Polymorphism
 5.5	Implementation of encapsulation 
-*Practical Works:*
+**Practical Works:**
 •	Create virtual function. 
 •	Create pure virtual function. 
 •	Create Abstract class
@@ -88,7 +88,7 @@
 i.	Basic to user-defined types
 ii.	User-defined to basic types
 iii.	User-defined to user-defined types
-*Practical Works:*
+**Practical Works:**
 •	Overload unary operator, relational operator and arithmetic operators 
 •	Apply data conversion techniques to convert different types of data 
 
@@ -102,7 +102,7 @@ iii.	User-defined to user-defined types
 7.5	Basic of exception handling 
 7.6	Exception handling mechanism: throw, catch and try
 7.7	Exception handling of basic types and user-defined types 
-*Practical Works:*
+**Practical Works:**
 •	Create and apply namespace
 •	Create and apply function template.
 •	Create and apply template class.  
@@ -117,7 +117,7 @@ iii.	User-defined to user-defined types
 8.4	File opening modes in C++
 8.5	Using open function to open file
 8.6	Sequential and Random access to file 
-*Practical Works:*
+**Practical Works:**
 •	Apply fstream, ifstream and ofstream classes to manipulate files
 •	Access files sequentially and randomly
 
