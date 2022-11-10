@@ -31,7 +31,7 @@
 
 
 |**Unit 3: Object and Class (5T+10P)**|
-|--|
+|---|
 3.1	Concept of Object and Class
 3.2	Access controls: private, protected and public
 3.3	Data Member and Member Function of class
