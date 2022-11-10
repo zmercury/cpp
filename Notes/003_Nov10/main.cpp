@@ -1,10 +1,3 @@
-### November 10, 2022
-
-Classwork
-
-```cpp
-//simple interest using double
-
 #include <iostream>
 
 using namespace std;
@@ -27,4 +20,3 @@ int main() {
 
     return 0;
 }
-```
