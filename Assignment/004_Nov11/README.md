@@ -164,12 +164,178 @@ int main() {
 4. to input age of person and print in days with a appropriate format.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class ageInDays {
+    public:
+        int age;
+        int days;
+        int totalDays = 365;
+
+        void readAge() {
+            cout << "Enter your age: ";
+            cin >> age;
+        }
+
+        void calcAge() {
+            days = totalDays * age;
+            cout << "Age in days is " << days << " Days" << endl;
+        }
+};
+
+int main() {
+        ageInDays age1;
+
+        age1.readAge();
+        age1.calcAge();
+
+        return 0;
+}
 ```
 
-5. to input length & breadth of a room and calculate and print its area and perimeter.
+5. To input length & breadth of a room and calculate and print its area and perimeter.
 
+```cpp
+#include <iostream>
 
-6. to read the radius of a sphere and compute its surface area and volume.
-7. to input temperature in Celsius and to print its Fahrenheit equivalent.
-8. to read base and altitude of a triangle and prints its area.
+using namespace std;
+
+class room {
+    public:
+        int length;
+        int breath;
+        int area;
+        int perimeter;
+
+        void readData() {
+            cout << "Enter the length and breath of the room: ";
+            cin >> length;
+            cin >> breath;
+        }
+
+        void calcArea() {
+            area = length * breath;
+            cout << "The area of room is " << area << " cm2" << endl;
+        }
+
+        void calcPerimeter() {
+            perimeter = 2 * (length + breath);
+            cout << "The perimeter of room is " << perimeter << " cm";
+        }
+};
+
+int main() {
+        room r1;
+
+        r1.readData();
+        r1.calcArea();
+        r1.calcPerimeter();
+
+        return 0;
+}
+```
+
+6. To read the radius of a sphere and compute its surface area and volume.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class sphere {
+    public:
+        double pi = 3.14;
+        double radius;
+        double surfaceArea;
+        double volume;
+
+        void readRadius() {
+            cout << "Enter the radius of the sphere: ";
+            cin >> radius;
+        }
+
+        void calcSurfaceArea() {
+            surfaceArea = 4 * pi * radius * radius;
+            cout << "The surface area of sphere is " << surfaceArea << " cm2" << endl;
+        }
+
+        void calcVolume() {
+            volume = (4 / 3) * pi * radius * radius * radius;
+            cout << "The volume of sphere is " << volume << " cm3";
+        }
+};
+
+int main() {
+        sphere sp1;
+
+        sp1.readRadius();
+        sp1.calcSurfaceArea();
+        sp1.calcVolume();
+
+        return 0;
+}
+```
+
+7. To input temperature in Celsius and to print its Fahrenheit equivalent.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class temprature {
+    public:
+        double tempFahrenheit;
+
+        void convTemp(double temp) {
+            tempFahrenheit = (temp * 1.8) + 32;
+            cout << "Temprature in F is " << tempFahrenheit << "c";
+        }
+};
+
+int main() {
+        temprature t1;
+        double tempCelcius;
+
+        cout << "Enter temprature in celcius: ";
+        cin >> tempCelcius;
+
+        t1.convTemp(tempCelcius);
+
+        return 0;
+}
+```
+
+8. To read base and altitude of a triangle and prints its area.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class triangle {
+    public:
+        double base;
+        double height;
+        
+        void areaTri() {
+            cout << "Enter base of the triangle: ";
+            cin >> base;
+            cout << "Enter height of the triangle: ";
+            cin >> height;
+
+            cout << base << endl;
+            cout << height << endl;
+
+            cout << "The area of triangle is " << (0.5 * base * height) << " cm2";
+        } 
+};
+
+int main() {
+        triangle t1;
+        t1.areaTri();
+        return 0;
+}
+```
