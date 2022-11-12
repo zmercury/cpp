@@ -1,2 +1,9 @@
 #settings
 *.vscode
+
+#exec files
+*.exe
+
+#program files
+*.cpp
+*.c
