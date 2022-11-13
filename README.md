@@ -5,7 +5,7 @@
 ## Table of Content
 
 |Date|Content|Notes|
-|---|---|---|
+|---------|---------|---------|
 |November 7|[Syllabus](/Notes/001_Nov7/)||
 |November 8|[Notes](/Notes/001_Nov8/)|C Recap: SI, Switch and Loop|
 
