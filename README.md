@@ -4,7 +4,7 @@
 
 ## Table of Content
 
-|Date|Content - Click Here|Notes|
+|Date|Content|Notes|
 |---------|---------|---------|
 |November 7|[Syllabus](/Notes/000_Nov7/)||
 |November 8|[Notes](/Notes/001_Nov8/)|C Recap: Find Simple Interest, Sample of Switch and Loop Statement|
