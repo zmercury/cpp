@@ -5,7 +5,7 @@
 ## Table of Content
 
 |Date|Content|Link|
-|---------|---------|---------|
+|--------|---------|:---------:|
 |Nov 7|Syllabus|[Syllabus](/Notes/000_Nov7/)|
 |Nov 8|C Recap: Find Simple Interest, Sample of Switch and Loop Statement|[Notes](/Notes/001_Nov8/)|
 |Nov 9|Basic Addition, User Input and find area of rectriangle|[Notes](/Notes/002_Nov9/)|
