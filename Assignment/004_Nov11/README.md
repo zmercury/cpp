@@ -78,6 +78,7 @@ int main() {
 
 ```cpp
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -91,7 +92,7 @@ class volumeCube {
         }
 
         void calcVolume() {
-            cout << "The volume of cube is " << length * length * length << " cm3";
+            cout << "The volume of cube is " << pow(length,3) << " cm3";
         }
 };
 
