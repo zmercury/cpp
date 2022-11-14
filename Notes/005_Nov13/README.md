@@ -225,7 +225,7 @@ class room {
             perimeter = 2 * (length + breath);
             cout << "The perimeter of room is " << perimeter << " cm";
         }
-};
+}; 
 
 int main() {
         room r1;
@@ -340,3 +340,4 @@ int main() {
         return 0;
 }
 ```
+
