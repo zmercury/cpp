@@ -1,9 +1,3 @@
-### November 15, 2022
-
-
-### 1. Find the greatest number among three number
-
-```cpp
 #include <iostream>
 
 using namespace std;
@@ -45,5 +39,3 @@ int main() {
 
         return 0;
 }
-```
-

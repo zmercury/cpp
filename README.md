@@ -13,7 +13,7 @@
 |Nov 11|Classes in C++: Sample Programs|[Notes](/Notes/004_Nov11/)|
 |Nov 13|**Questions:**<br/>**1.** Area of square <br/> **2.** Volume of a cuboid <br/> **3.** Volume of cube <br/> **4.** Print sum, difference, product and quotient of two user input numbers <br/> **5.** To input age of person and print in days with a appropriate format <br/> **6.** To input length & breadth of a room and calculate and print its area and perimeter <br/> **7.** To read the radius of a sphere and compute its surface area and volume <br/> **8.** To input temperature in Celsius and to print its Fahrenheit equivalent <br/> **9.** To read base and altitude of a triangle and prints its area|[Notes](/Notes/005_Nov13/)|
 |Nov 14|Completed the questions given in Nov 13 --> [Click Here](/Notes/005_Nov13/)|[Notes](/Notes/006_Nov14/)|
-|Nov 15|Completed the questions given in Nov 13 --> [Click Here](/Notes/005_Nov13/)|[Notes](/Notes/007_Nov15)|
+|Nov 15|Find Greatest Number among three numbers |[Notes](/Notes/007_Nov15)|
 
 
 
