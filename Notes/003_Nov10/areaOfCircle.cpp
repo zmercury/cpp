@@ -1,4 +1,4 @@
-//area of circle
+//area of circle (Trad)
 
 #include <iostream>
 
@@ -17,3 +17,4 @@ int main() {
 
     return 0;
 }
+
