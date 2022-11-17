@@ -27,6 +27,9 @@ int main()
     return 0;
 }
 ```
-
+```md
+# Output
+> 2 4 6 8 10
+```
 
 
