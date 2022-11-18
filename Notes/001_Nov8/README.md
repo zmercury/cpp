@@ -25,6 +25,15 @@ int main() {
 }
 ```
 
+```md
+# output
+> Enter the principle: 2000
+> Enter the time: 2
+> Enter the rate: 10
+> Simple Interest is (ans)
+```
+
+
 ```c
 //Simple program that uses switch statement
 
