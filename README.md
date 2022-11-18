@@ -18,4 +18,4 @@
 
 
 
-###### Copyright (c) 2022 [Mercury](https://nikhilbastola.com.np) 
+###### Copyright (c) 2022 [Mercury / Jupiter](https://nikhilbastola.com.np) 
