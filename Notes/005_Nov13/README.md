@@ -292,7 +292,7 @@ class temprature {
 
         void convTemp(double temp) {
             tempFahrenheit = (temp * 1.8) + 32;
-            cout << "Temprature in F is " << tempFahrenheit << "c";
+            cout << "Temprature in F is " << tempFahrenheit << "F";
         }    
 };
 
@@ -326,9 +326,6 @@ class triangle {
             cin >> base;
             cout << "Enter height of the triangle: ";
             cin >> height;
-
-            cout << base << endl;
-            cout << height << endl;
 
             cout << "The area of triangle is " << (0.5 * base * height) << " cm2";
         } 
