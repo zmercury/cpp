@@ -8,7 +8,7 @@ class temprature {
 
         void convTemp(double temp) {
             tempFahrenheit = (temp * 1.8) + 32;
-            cout << "Temprature in F is " << tempFahrenheit << "c";
+            cout << "Temprature in F is " << tempFahrenheit << "F";
         }    
 };
 
