@@ -274,7 +274,48 @@ int main() {
 ```
 
 #### 4. check that whether a number is even or odd.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class evenOdd {
+    public:
+        int num;
+
+        void getInput() {
+            cout << "Enter any number: ";
+            cin >> num;
+        }
+
+        void findEvenOdd() {
+            if(num == 0) {
+                cout << "Zero";
+            } else if(num % 2 == 0) {
+                cout << num << " is even number!";
+            } else {
+                cout << num << " is odd number!";
+            }
+        }
+};
+
+int main() {
+        evenOdd eo;
+
+        eo.getInput();
+        eo.findEvenOdd();
+
+        return 0;
+}
+```
+
 #### 5. Program to check whether a number is divisible by 5 and 11 or not.
+
+```cpp
+
+```
+
 #### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
 #### 7. Program to calculate profit or loss.
 #### 8. Program to check whether a year is a leap year or not by using an if-else statement.
