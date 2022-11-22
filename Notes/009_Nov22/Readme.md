@@ -348,7 +348,42 @@ int main() {
 #### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class triangle {
+    public:
+        double sideOne, sideTwo, sideThree;
+
+        void getSides() {
+            cout << "Enter Side One: ";
+            cin >> sideOne;
+            cout << "Enter Side Two: ";
+            cin >> sideTwo;
+            cout << "Enter Side Three: ";
+            cin >> sideThree;
+        }
+
+        void checkTriangle() {
+            if(sideOne == sideTwo && sideTwo == sideThree) {
+                cout << "Equilateral Triangle";
+            } else if(sideOne == sideTwo || sideTwo == sideThree || sideThree == sideOne) {
+                cout << "Isosceles Triangle";
+            } else {
+                cout << "Scalene Triangle";
+            }
+        }
+};
+
+int main() {
+        triangle tg;
+
+        tg.getSides();
+        tg.checkTriangle();
+
+        return 0;
+}
 ```
 
 #### 7. Program to calculate profit or loss.
