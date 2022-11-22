@@ -15,7 +15,7 @@
 |Nov 14|Completed the questions given in Nov 13 --> [Click Here](/Notes/005_Nov13/)|[Notes](/Notes/006_Nov14/)|
 |Nov 15|Find Greatest Number among three numbers |[Notes](/Notes/007_Nov15)|
 |Nov 16|ASCII,For loop and Increment and Decrement Operators |[Notes](/Notes/008_Nov16/)|
-|Nov 22|Use of if.. else... and else if...... |[Notes](/Notes/009_Nov22/) |
+|Nov 22|Use of if.. else... and else if...... (Calculate Grade) |[Notes](/Notes/009_Nov22/) |
 
 
 
