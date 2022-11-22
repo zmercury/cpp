@@ -313,7 +313,36 @@ int main() {
 #### 5. Program to check whether a number is divisible by 5 and 11 or not.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class division {
+    public:
+        int number;
+
+        void getInput() {
+            cout << "Enter any number: ";
+            cin >> number;
+        }
+
+        void checkCondition() {
+            if(number % 5 == 0 && number % 11 == 0) {
+                cout << number << " is divisible by 5 and 11!";
+            } else {
+                cout << number << " is not divisible by 5 and 11!";
+            }
+        }
+};
+
+int main() {
+        division n1;
+
+        n1.getInput();
+        n1.checkCondition();
+
+        return 0;
+}
 ```
 
 #### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
