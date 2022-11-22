@@ -216,6 +216,8 @@ class product {
             } else if (total > 1000) {
                 discount = 0.1 * quantity;
                 cout << "Total Cost = Rs. " << total - discount;
+            } else {
+                cout << "Invalid Input!";
             }
         }
 };
@@ -233,7 +235,42 @@ int main() {
 #### 3. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class employee {
+    public:
+        double salary, time;
+        double bonus;
+
+        void getData() {
+            cout << "Enter your salary: ";
+            cin >> salary;
+            cout << "Enter the year of service in this organization: ";
+            cin >> time;
+        }
+
+        void calcBonus() {
+            if(time > 5.0) {
+                bonus = 0.05 * salary;
+                cout << "Bonus = " << bonus;
+            } else if(time < 5.0) {
+                cout << "Bonus = 0";
+            } else {
+                cout << "Invalid Input!";
+            }
+        }
+};
+
+int main() {
+        employee ep;
+
+        ep.getData();
+        ep.calcBonus();
+
+        return 0;
+}
 ```
 
 #### 4. check that whether a number is even or odd.
