@@ -17,9 +17,10 @@ Control Statement
 3. if... else if.... else
     1) checks more than 2 condition
 
-___
 
-#### Checks of the input number is positive or not 
+## Classwork
+
+#### 1. Checks of the input number is positive or not 
 ```cpp
 #include <iostream>
 
@@ -38,7 +39,7 @@ int main() {
     return 0;
 }
 ```
-#### check if input numbers is positive or negative
+#### 2. check if input numbers is positive or negative
 
 ```cpp
 #include <iostream>
@@ -61,7 +62,7 @@ int main() {
 }
 ```
 
-#### checks if the input number is positive, negative or zero
+#### 3. checks if the input number is positive, negative or zero
 
 ```cpp
 #include <iostream>
@@ -86,7 +87,7 @@ int main() {
 }
 ```
 
-#### enter the marks of five subjects and find the total marks, percentage and grades using classes
+#### 4. enter the marks of five subjects and find the total marks, percentage and grades using classes
 
 ```cpp
 #include <iostream>
@@ -151,5 +152,58 @@ int main() {
 }
 ```
 
+## Assignment
+
+#### 1. Enter values of length and breadth of a rectangle from user and check if it is square or not.
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+class rect {
+    public:
+        int length, breath;
+
+        void getData() {
+            cout << "Enter the length of the rectriangle: ";
+            cin >> length;
+            cout << "Enter the breath of the rectriangle: ";
+            cin >> breath;
+        }
+
+        void checkShape() {
+            if(length == breath) {
+                cout << "It is a square!";
+            } else {
+                cout << "It is a rectriangle!";
+            }
+        }
+};
+
+int main() {
+        rect rt;
+
+        rt.getData();
+        rt.checkShape();
+
+        return 0;
+}
+```
+
+#### 2. A shop will give discount of 10% if the cost of purchased quantity is more than 1000. Ask user for quantity. Suppose, one unit will cost 100. Judge and print total cost for user.
+
+```cpp
+
+```
+
+#### 3. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
+#### 4. check that whether a number is even or odd.
+#### 5. Program to check whether a number is divisible by 5 and 11 or not.
+#### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
+#### 7. Program to calculate profit or loss.
+#### 8. Program to check whether a year is a leap year or not by using an if-else statement.
+#### 9. program that checks whether the character is an alphabet or not.
+#### 10. Program to check whether a number is a prime or composite number.
 
 
