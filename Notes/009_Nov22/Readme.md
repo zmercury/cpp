@@ -431,6 +431,12 @@ int main() {
 #### 8. Program to check whether a year is a leap year or not by using an if-else statement.
 
 ```cpp
+
+```
+
+#### 9. program that checks whether the character is an alphabet or not.
+
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -461,12 +467,6 @@ int main() {
 
         return 0;
 }
-```
-
-#### 9. program that checks whether the character is an alphabet or not.
-
-```cpp
-
 ```
 
 #### 10. Program to check whether a number is a prime or composite number.
