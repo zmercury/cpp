@@ -17,10 +17,10 @@ Control Statement
 3. if... else if.... else
     1) checks more than 2 condition
 
+___
 
+#### Checks of the input number is positive or not 
 ```cpp
-//checks if the input number is positive or not
-
 #include <iostream>
 
 using namespace std;
@@ -38,10 +38,9 @@ int main() {
     return 0;
 }
 ```
+#### check if input numbers is positive or negative
 
 ```cpp
-// check if input numbers is positive or negative
-
 #include <iostream>
 
 using namespace std;
@@ -62,9 +61,9 @@ int main() {
 }
 ```
 
-```cpp
-// checks if the input number is positive, negative or zero
+#### checks if the input number is positive, negative or zero
 
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -87,10 +86,9 @@ int main() {
 }
 ```
 
+#### enter the marks of five subjects and find the total marks, percentage and grades using classes
 
 ```cpp
-//enter the marks of five subjects and find the total marks, percentage and grades using classes
-
 #include <iostream>
 
 using namespace std;
