@@ -389,7 +389,43 @@ int main() {
 #### 7. Program to calculate profit or loss.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class profitLoss {
+    public:
+        double profit, loss;
+        double sellingPrice, buyingPrice;
+
+        void getPrices() {
+            cout << "Enter the buying price: ";
+            cin >> buyingPrice;
+            cout << "Enter the selling price: ";
+            cin >> sellingPrice;
+        }
+
+        void findProfitLoss() {
+            if(buyingPrice > sellingPrice) {
+                loss = buyingPrice - sellingPrice;
+                cout << "Total Loss = Rs. " << loss;
+            } else if(buyingPrice < sellingPrice) {
+                profit = sellingPrice - buyingPrice;
+                cout << "Total profit = Rs. " << profit;
+            } else {
+                cout << "Neither Profit Nor Loss";
+            }
+        }
+};
+
+int main() {
+        profitLoss pl;
+
+        pl.getPrices();
+        pl.findProfitLoss();
+
+        return 0;
+}
 ```
 
 #### 8. Program to check whether a year is a leap year or not by using an if-else statement.
