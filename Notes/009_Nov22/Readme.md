@@ -346,9 +346,33 @@ int main() {
 ```
 
 #### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
+
+```cpp
+
+```
+
 #### 7. Program to calculate profit or loss.
+
+```cpp
+
+```
+
 #### 8. Program to check whether a year is a leap year or not by using an if-else statement.
+
+```cpp
+
+```
+
 #### 9. program that checks whether the character is an alphabet or not.
+
+```cpp
+
+```
+
 #### 10. Program to check whether a number is a prime or composite number.
+
+```cpp
+
+```
 
 
