@@ -431,7 +431,36 @@ int main() {
 #### 8. Program to check whether a year is a leap year or not by using an if-else statement.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class alphabet {
+    public:
+        char word;
+
+        void getInput() {
+            cout << "Enter any character: ";
+            cin >> word;
+        }
+
+        void findAlphabet() {
+            if(word >= 'a' && word <= 'z' || word >= 'A' && word <= 'Z') {
+                cout << word << " is Alphabet!";
+            } else {
+                cout << word << " is not Alphabet!";
+            }
+        }
+};
+
+int main() {
+        alphabet ap;
+
+        ap.getInput();
+        ap.findAlphabet();
+
+        return 0;
+}
 ```
 
 #### 9. program that checks whether the character is an alphabet or not.
