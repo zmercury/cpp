@@ -194,10 +194,48 @@ int main() {
 #### 2. A shop will give discount of 10% if the cost of purchased quantity is more than 1000. Ask user for quantity. Suppose, one unit will cost 100. Judge and print total cost for user.
 
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class product {
+    public:
+        double quantity, total, discount;
+        double perUnit = 100;
+
+        void getQuantity() {
+            cout << "Enter the quantity of product you want to buy: ";
+            cin >> quantity;
+        }
+
+        void calcTotal() {
+            total = quantity * perUnit;
+            
+            if (total <= 1000) {
+                cout << "Total Cost = Rs. " << total;
+            } else if (total > 1000) {
+                discount = 0.1 * quantity;
+                cout << "Total Cost = Rs. " << total - discount;
+            }
+        }
+};
+
+int main() {
+        product pd;
+
+        pd.getQuantity();
+        pd.calcTotal();
+
+        return 0;
+}
 ```
 
 #### 3. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
+
+```cpp
+
+```
+
 #### 4. check that whether a number is even or odd.
 #### 5. Program to check whether a number is divisible by 5 and 11 or not.
 #### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
