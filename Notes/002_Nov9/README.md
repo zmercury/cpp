@@ -15,6 +15,11 @@ int main() {
 }
 ```
 
+#### Output
+```md
+> The sum is 15
+```
+
 
 ### 2. Program that takes string input using cin
 ```cpp
@@ -30,6 +35,12 @@ int main() {
     cout << "Your name is " << fName;
     return 0;
 }
+```
+
+#### Output
+```md
+> Enter your name: Nikhil
+> Your name is Nikhil
 ```
 
 ### 3. Sum using user input
@@ -51,6 +62,14 @@ int main() {
 }
 ```
 
+#### Output
+```md
+> Enter a: 8
+> Enter b: 12
+> The sum is 20
+```
+
+
 ### 4. Program to find the area
 
 ```cpp
@@ -69,4 +88,9 @@ int main() {
     return 0;
 }
 ```
-
+#### Output
+```md
+> Enter length: 7
+> Enter breath: 3
+> The area is 21 sq.m
+```
