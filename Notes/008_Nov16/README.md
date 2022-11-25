@@ -12,9 +12,10 @@ for(initialization; condition; increment/decrement) {
 }
 ```
 
-```c
-//using increment operator to find even number
 
+### 1. Using increment operator to find even number
+
+```c
 #include <stdio.h>
 
 int main()
@@ -27,8 +28,8 @@ int main()
     return 0;
 }
 ```
+#### Output
 ```md
-# Output
 > 2 4 6 8 10
 ```
 
