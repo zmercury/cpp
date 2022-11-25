@@ -12,9 +12,9 @@ class className {
 
 ### Programs using Classes
 
-```cpp
-//Prints Hello World using class
+### 1. Prints Hello World using class
 
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -30,10 +30,14 @@ int main() {
         return 0;
 }
 ```
+#### Output
+```md
+> Hello World!
+```
+
+### 2. Adds two numbers 
 
 ```cpp
-//Adds two numbers 
-
 #include <iostream>
 
 using namespace std;
@@ -53,9 +57,14 @@ int main() {
 }
 ```
 
-```cpp
-//Gets name and prints it
+#### Output
+```md
+> The sum is 30
+```
 
+### 3. Gets name and prints it
+
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -82,9 +91,16 @@ int main() {
 }
 ```
 
-```cpp
-//Asks two numbers and prints its sum
+#### Output
+```md
+> Enter your name: Mercury
+> Your name is Mercury
+```
 
+
+### 4. Asks two numbers and prints its sum
+
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -113,10 +129,15 @@ int main() {
         return 0;
 }
 ```
+#### Output
+```md
+> Enter any two number: 10 20 
+> The sum is 30
+```
 
+
+### 5. Area of Rectriangle
 ```cpp
-//Area of Rectriangle
-
 #include <iostream>
 using namespace std;
 
@@ -147,9 +168,16 @@ int main()
 }
 ```
 
-```cpp
-//Simple Interest
+#### Output
+```md
+> Enter length: 10
+> Enter breath: 4
+> The area is 40
+```
 
+### 6. Simple Interest
+
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -181,10 +209,20 @@ int main()
     return 0;
 }
 ```
+#### Output
+
+```md
+> Enter principal amount: 20000
+> Enter time: 2.5
+> Enter rate of interest: 12
+> Simple interest = 
+```
+
+
+
+### 7. Area of circle
 
 ```cpp
-//Area of circle
-
 #include <iostream>
 using namespace std;
 
@@ -200,7 +238,7 @@ public:
     }
     void output()
     {
-        cout << "The are is = " << 3.14 * r * r;
+        cout << "The area is = " << 3.14 * r * r;
     }
 };
 
@@ -211,4 +249,10 @@ int main()
     a1.output();
     return 0;
 }
+```
+
+#### Output
+```md
+> Enter the value of radius: 7
+> The area is 153.94
 ```
