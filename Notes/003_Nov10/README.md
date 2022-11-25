@@ -1,10 +1,11 @@
 ### November 10, 2022
 
 Classwork
+-
+
+### 1. Simple interest using double
 
 ```cpp
-//simple interest using double
-
 #include <iostream>
 
 using namespace std;
@@ -29,9 +30,18 @@ int main() {
 }
 ```
 
-```cpp
-//area of circle
+#### Output
+```md
+> Enter the Principal: 20000
+> Enter the Rate: 12
+> Enter the Time: 2.5
+> The simple interest is  
+```
 
+
+### 2. Area of circle
+
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -49,4 +59,10 @@ int main() {
 
     return 0;
 }
+```
+
+#### Output
+```md
+> Enter the radius of the Circle: 14
+> The area of the circle is 615.75cm2
 ```
