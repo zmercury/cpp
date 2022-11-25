@@ -120,7 +120,8 @@ int main() {
 #### Output
 
 ```md
-> Enter length of cube: 
+> Enter length of cube: 4
+> The Volume of cube is 
 ```
 
 
