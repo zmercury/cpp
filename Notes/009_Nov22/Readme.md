@@ -34,11 +34,18 @@ int main() {
 
     if(a > 1) {
         cout << "number is positive";
-    }
+    } 
 
     return 0;
 }
 ```
+#### Output
+
+```md
+> Enter a number: 10
+> Number is positive
+```
+
 #### 2. check if input numbers is positive or negative
 
 ```cpp
@@ -60,6 +67,12 @@ int main() {
 
     return 0;
 }
+```
+#### Output
+
+```md
+> Enter a number: -10
+> Number is negative
 ```
 
 #### 3. checks if the input number is positive, negative or zero
@@ -85,6 +98,12 @@ int main() {
 
     return 0;
 }
+```
+#### Output
+
+```md
+> Enter a number: 0
+> Number is zero
 ```
 
 #### 4. enter the marks of five subjects and find the total marks, percentage and grades using classes
@@ -151,6 +170,17 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter the marks of English: 92
+> Enter the marks of Nepali: 92
+> Enter the marks of Account: 92
+> Enter the marks of Maths: 92
+> Enter the marks of Computer: 92
+> Total marks of all subject = 460
+> Grade = A+
+```
 
 ## Assignment
 
@@ -189,6 +219,13 @@ int main() {
 
         return 0;
 }
+```
+#### Output
+
+```md
+> Enter the length of the rectriangle: 10 
+> Enter the breath of the rectriangle: 10
+> It is a square!
 ```
 
 #### 2. A shop will give discount of 10% if the cost of purchased quantity is more than 1000. Ask user for quantity. Suppose, one unit will cost 100. Judge and print total cost for user.
@@ -231,6 +268,12 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter the quantity of product you want to buy: 9
+> Total Cost = Rs. 900
+```
 
 #### 3. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
 
@@ -272,6 +315,13 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter your salary: 20000
+> Enter the year of service in this organization: 21
+> Bonus = 1000
+```
 
 #### 4. check that whether a number is even or odd.
 
@@ -309,6 +359,12 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter any number: 4
+> 4 is even number!
+```
 
 #### 5. Program to check whether a number is divisible by 5 and 11 or not.
 
@@ -343,6 +399,12 @@ int main() {
 
         return 0;
 }
+```
+#### Output
+
+```md
+> Enter any number: 55
+> 55 is divisible by 5 and 11!
 ```
 
 #### 6. Program to check whether the triangle is an equilateral, isosceles or scalene triangle.
@@ -384,6 +446,14 @@ int main() {
 
         return 0;
 }
+```
+#### Output
+
+```md
+> Enter Side One: 12
+> Enter Side Two: 12
+> Enter Side Three: 10
+> Isosceles Triangle
 ```
 
 #### 7. Program to calculate profit or loss.
@@ -427,6 +497,13 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter the buying price: 20000
+> Enter the selling price: 21000
+> Total Profit: Rs. 1000
+```
 
 #### 8. Program to check whether a year is a leap year or not by using an if-else statement.
 
@@ -468,11 +545,22 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter any character: &
+> & is not Alphabet!
+```
 
 #### 10. Program to check whether a number is a prime or composite number.
 
 ```cpp
 
 ```
+#### Output
+
+```md
+
+``` 
 
 
