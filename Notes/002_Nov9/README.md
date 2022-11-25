@@ -1,8 +1,8 @@
 ### November 9, 2022
 
-```cpp
-//adding 2 numbers 
 
+### 1. Adding 2 numbers 
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -15,8 +15,9 @@ int main() {
 }
 ```
 
+
+### 2. Program that takes string input using cin
 ```cpp
-//Program that takes string input using cin
 
 #include <iostream>
 
@@ -31,8 +32,9 @@ int main() {
 }
 ```
 
+### 3. Sum using user input
+
 ```cpp
-//sum using user input
 #include <iostream>
 
 using namespace std;
@@ -49,8 +51,9 @@ int main() {
 }
 ```
 
+### 4. Program to find the area
+
 ```cpp
-//Program to find the area
 #include <iostream>
 
 using namespace std;
