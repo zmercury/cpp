@@ -121,7 +121,7 @@ int main() {
 
 ```md
 > Enter length of cube: 4
-> The Volume of cube is 
+> The Volume of cube is 64cm3
 ```
 
 
@@ -183,6 +183,15 @@ int main() {
         return 0;
 }
 ```
+#### Output
+
+```md
+> Enter any two number: 10 2                        
+> The sum is 12
+> The difference is 8
+> The product is 20
+> The quotient is 5
+```
 
 ### 5. to input age of person and print in days with a appropriate format.
 
@@ -217,6 +226,13 @@ int main() {
         return 0;
 }
 ```
+
+#### Output
+```md
+> Enter you age: 19
+> Age in days is 6935 Days
+```
+
 
 ### 6. To input length & breadth of a room and calculate and print its area and perimeter.
 
@@ -259,6 +275,13 @@ int main() {
         return 0;
 }
 ```
+#### Output
+```md
+> Enter the length and breath of the room: 10 20
+> The area of room is 200cm2
+> The perimeter of room is 60cm
+```
+
 
 ### 7. To read the radius of a sphere and compute its surface area and volume.
 
@@ -300,6 +323,13 @@ int main() {
         return 0;
 }
 ```
+#### Output
+```md
+> Enter the raduis of the sphere: 7
+> The surface area of sphere is 615.75 cm2
+> The volume of sphere is 1436.76 cm3
+```
+
 
 ### 8. To input temperature in Celsius and to print its Fahrenheit equivalent.
 
@@ -330,6 +360,12 @@ int main() {
         return 0;
 }
 ```
+#### Output
+```md
+> Enter temprature in celcius: 25
+> Temprature in F is 77F
+```
+
 
 ### 9. To read base and altitude of a triangle and prints its area.
 
@@ -360,3 +396,9 @@ int main() {
 }
 ```
 
+#### Output
+```md
+> Enter the base of the triangle: 14
+> Enter the height of the triangle: 7
+> The area of triangle is 49cm2
+```
