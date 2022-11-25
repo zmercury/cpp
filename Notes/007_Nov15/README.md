@@ -47,6 +47,12 @@ int main() {
 }
 ```
 
+#### Output
+```md
+> Enter any three number: 4 5 6
+> 6 is greater!
+```
+
 ### 1.a. Using (Pass by Reference)
 ```cpp
 #include <iostream>
@@ -87,4 +93,10 @@ int main() {
 
         return 0;
 }
+```
+
+#### Output
+```md
+> Enter any three number: 4 5 6
+> 6 is greater!
 ```
