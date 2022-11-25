@@ -1,7 +1,7 @@
 ### November 13, 2022
 
 
-1. Area of Square
+### 1. Area of Square
 
 ```cpp
 #include <iostream>
@@ -32,7 +32,14 @@ int main() {
 }
 ```
 
-2. Volume of a Cuboid
+#### Output
+
+```md
+> Enter the length of square: 2
+> The area of square is 4cm2
+```
+
+### 2. Volume of a Cuboid
 
 ```cpp
 #include <iostream>
@@ -70,8 +77,16 @@ int main() {
         return 0;
 }
 ```
+#### Output
+```md
+> Enter the length of the cuboid: 10
+> Enter the height of the cuboid: 10
+> Enter the width of the cuboid: 10
+> The volume of cuboid is 1000cm3
+```
 
-3. Volume of Cube
+
+### 3. Volume of Cube
 
 ```cpp
 #include <iostream>
@@ -102,8 +117,14 @@ int main() {
         return 0;
 }
 ```
+#### Output
 
-3. Print sum, difference, product and quotient of two user input numbers.
+```md
+> Enter length of cube: 
+```
+
+
+### 4. Print sum, difference, product and quotient of two user input numbers.
 
 ```cpp
 #include <iostream>
@@ -162,7 +183,7 @@ int main() {
 }
 ```
 
-4. to input age of person and print in days with a appropriate format.
+### 5. to input age of person and print in days with a appropriate format.
 
 ```cpp
 #include <iostream>
@@ -196,7 +217,7 @@ int main() {
 }
 ```
 
-5. To input length & breadth of a room and calculate and print its area and perimeter.
+### 6. To input length & breadth of a room and calculate and print its area and perimeter.
 
 ```cpp
 #include <iostream>
@@ -238,7 +259,7 @@ int main() {
 }
 ```
 
-6. To read the radius of a sphere and compute its surface area and volume.
+### 7. To read the radius of a sphere and compute its surface area and volume.
 
 ```cpp
 #include <iostream>
@@ -279,7 +300,7 @@ int main() {
 }
 ```
 
-7. To input temperature in Celsius and to print its Fahrenheit equivalent.
+### 8. To input temperature in Celsius and to print its Fahrenheit equivalent.
 
 ```cpp
 #include <iostream>
@@ -309,7 +330,7 @@ int main() {
 }
 ```
 
-8. To read base and altitude of a triangle and prints its area.
+### 9. To read base and altitude of a triangle and prints its area.
 
 ```cpp
 #include <iostream>
