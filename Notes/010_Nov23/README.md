@@ -54,7 +54,14 @@ int main() {
 }
 ```
 
-#### 2. 
+#### Output
+
+```md
+> Enter any number from 1 - 7: 5
+> Thrusday
+```
+
+#### 2. Print string using alphabet
 
 
 ```cpp
@@ -96,6 +103,13 @@ int main() {
     }
     return 0;
 }
+```
+
+#### Output
+
+```md
+> Enter any character from a - e: b
+> Ball
 ```
 
 #### 3. Qn. no. 2 using Class
@@ -153,6 +167,13 @@ int main() {
 
         return 0;
 }
+```
+
+#### Output
+
+```md
+> Enter any character from a - e: e
+> Eagle
 ```
 
 ### Assignment
@@ -226,4 +247,17 @@ int main() {
 
         return 0;
 }
+```
+
+#### Output
+
+```md
+> Enter one number: 10
+> Enter two number: 2 
+> Enter + for addition!
+> Enter - for Substraction!
+> Enter * for Multiplication!*
+> Enter / for Division!
+> 1
+> Sum is 12
 ```
