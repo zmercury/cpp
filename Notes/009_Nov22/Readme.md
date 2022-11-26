@@ -251,7 +251,7 @@ class product {
             if (total <= 1000) {
                 cout << "Total Cost = Rs. " << total;
             } else if (total > 1000) {
-                discount = 0.1 * quantity;
+                discount = 0.1 * total;
                 cout << "Total Cost = Rs. " << total - discount;
             } else {
                 cout << "Invalid Input!";
