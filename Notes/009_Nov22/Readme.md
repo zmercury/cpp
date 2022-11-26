@@ -20,7 +20,7 @@ Control Statement
 
 ## Classwork
 
-#### 1. Checks of the input number is positive or not 
+#### 1. Checks if the input number is positive or not 
 ```cpp
 #include <iostream>
 
