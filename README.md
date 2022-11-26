@@ -17,6 +17,7 @@
 |Nov 16|ASCII,For loop and Increment and Decrement Operators |[Notes](/Notes/008_Nov16/)|
 |Nov 22|Use of if.. else... and else if...... (Calculate Grade) <br/> **Questions** <br/> **1.** Enter values of length and breadth of a rectangle from user and check if it is square or not. <br/> **2.** A shop will give discount of 10% if the cost of purchased quantity is more than 1000. Ask user for quantity. Suppose, one unit will cost 100. Judge and print total cost for user. <br/> **3.** A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount. <br/> **4.** Check that whether a number is even or odd. <br/> **5.** Program to check whether a number is divisible by 5 and 11 or not. <br/> **6.** Program to check whether the triangle is an equilateral, isosceles or scalene triangle. <br/> **7.** Program to calculate profit or loss. <br/> **8.** Program to check whether a year is a leap year or not by using an if-else statement. <br/> **9.** Program that checks whether the character is an alphabet or not. <br/> **10.** Program to check whether a number is a prime or composite number.|[Notes](/Notes/009_Nov22/) |
 |Nov 23|Switch Statement (Assignment: Input two number and find the sum, difference, product and quotient using switch)| [Notes](/Notes/010_Nov23/)|
+|Nov 27|| [Notes](/Notes/011_Nov27/)|
 
 
 
