@@ -52,3 +52,14 @@ int main() {
 }
 ```
 
+Arithmetic Operators
+-
+
+| Operator | Name| Example|
+|---|---|---|
+|+ | Arithmatic Addition | a + b|
+| - | Arithmetic Substraction| a - b|
+| * | Arithmetic Multiplication| a * b|
+|  / | Arithmetic Division| a / b|
+| % | Aeithmetic Modulus(Reminder Operator)| a % b|
+
