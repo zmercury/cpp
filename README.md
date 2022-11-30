@@ -20,7 +20,7 @@
 |Nov 27| Classwork (if block, swap number)| [Notes](/Notes/011_Nov27/)|
 |Nov 28| Loop | [Notes](/Notes/012_Nov28/)|
 |Nov 29| Jump Statement and Arithmatic Operators| [Notes](/Notes/013_Nov29/)|
-|Nov 30| Assignment Operators | [Notes](/Notes/014_Nov30/)|
+|Nov 30| Assignment Operators & | [Notes](/Notes/014_Nov30/)|
 
 
 
