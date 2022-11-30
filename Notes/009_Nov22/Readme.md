@@ -555,12 +555,47 @@ int main() {
 #### 10. Program to check whether a number is a prime or composite number.
 
 ```cpp
+#include <iostream>
+using namespace std;
+
+class checkPrimeComposit {
+  public:
+    int num, count = 0;
+    
+    void getInput() {
+      cout << "Enter any number: ";
+      cin >> num;
+    }
+
+    void findCondition() {
+      for(int i = 1; i <= num; i++) {
+        if(num % i == 0) {
+          count++;
+        }
+      }
+      if(count == 2) {
+        cout << num << " is prime number!";
+      } else {
+        cout << num << " is a composite number!";
+      }
+    }
+};
+
+int main() {
+  checkPrimeComposit pc;
+
+  pc.getInput();
+  pc.findCondition();
+
+  return 0;
+}
 
 ```
 #### Output
 
 ```md
-
+> Enter any number: 7
+> 7 is prime number!
 ``` 
 
 
