@@ -52,6 +52,37 @@ int main() {
 }
 ```
 
+```cpp
+#include <iostream>
+using namespace std;
+
+class Citizen{
+    public:
+        void input() {
+            ineligible: 
+                cout << "You are ineligible to get a Voter ID" << endl;
+            
+            int age;
+            cout << "Entet your age: ";
+            cin >> age;
+
+            if(age < 18) {
+                goto ineligible;
+            } else {
+                cout << "You are eligible to get a Voter ID";
+            }
+        }
+};
+
+int main() {
+        Citizen ct;
+
+        ct.input();
+
+        return 0;
+}
+```
+
 Arithmetic Operators
 -
 
