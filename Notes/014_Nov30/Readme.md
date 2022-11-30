@@ -1,7 +1,6 @@
 ### November 30
 
-Assignment Operator
--
+### Assignment Operator
 
 |Operators| Name|
 |:-:|---|
@@ -11,3 +10,14 @@ Assignment Operator
 |*=| Multiplication Assignment|
 |/=|Division Assignment|
 |%=| Modulus Assignment|
+
+### Relational Operator
+
+|Operators| Name|
+|:-:|---|
+|==|Equals to|
+|!=| Not Equals to|
+|>| is Greater than|
+|<| is Smaller than|
+|>=| is greater than or equals to|
+|<=| is smaller than or equals to|
