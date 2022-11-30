@@ -19,7 +19,8 @@
 |Nov 23|Switch Statement (Assignment: Input two number and find the sum, difference, product and quotient using switch)| [Notes](/Notes/010_Nov23/)|
 |Nov 27| Classwork (if block, swap number)| [Notes](/Notes/011_Nov27/)|
 |Nov 28| Loop | [Notes](/Notes/012_Nov28/)|
-|Nov 29| Jump Statement | [Notes](/Notes/013_Nov29/)|
+|Nov 29| Jump Statement and Arithmatic Operators| [Notes](/Notes/013_Nov29/)|
+|Nov 30| Assignment Operators | [Notes](/Notes/014_Nov30/)|
 
 
 
