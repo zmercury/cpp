@@ -13,11 +13,11 @@
 
 ### Relational Operator
 
-|Operators| Name|
-|:-:|---|
-|==|Equals to|
-|!=| Not Equals to|
-|>| is Greater than|
-|<| is Smaller than|
-|>=| is greater than or equals to|
-|<=| is smaller than or equals to|
+|Operators| Name|Example|
+|:-:|---|---|
+|==|Equals to|a == 3|
+|!=| Not Equals to|5 != 3 -> True|
+|>| is Greater than|5 > 3  -> True|
+|<| is Smaller than|5 < 3 -> False|
+|>=| is greater than or equals to|5 >= 3 -> True|
+|<=| is smaller than or equals to|5 <= 3 -> False|
