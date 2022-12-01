@@ -16,6 +16,8 @@ Ternary Operator
 -
 
 ```cpp
+//syntax of ternary operator
+
 (condition) ? ture statement : false statement;
 ```
 
