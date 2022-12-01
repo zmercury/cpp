@@ -1,13 +1,10 @@
 # C++ - Second Semester 
 
-#### Biju Sir ko Repo - [Click Here](https://github.com/ictednepal/OOPwithCPP/)
+### Latest Note (December 1) - [Click Here](/Notes/December/001_Dec1/)
 
 ## Table of Content
 
-|Date|Content|Link|
-|---|---|---|
-|Dec 1| Increment & Decrement Operator|[Notes](/Notes/December/001_Dec1/)|
-
+### November 
 
 |Date|Content|Link|
 |--------|---------|:---------:|
@@ -26,6 +23,14 @@
 |Nov 28| Loop | [Notes](/Notes/012_Nov28/)|
 |Nov 29| Jump Statement and Arithmatic Operators| [Notes](/Notes/013_Nov29/)|
 |Nov 30| Assignment Operators, Relational Operator & Logical Operator | [Notes](/Notes/014_Nov30/)|
+
+
+### December
+
+|Date|Content|Link|
+|---|---|---|
+|Dec 1| Increment & Decrement Operator / Ternary Operator and Features of Object Oriented Programming |[Notes](/Notes/December/001_Dec1/)|
+
 
 
 

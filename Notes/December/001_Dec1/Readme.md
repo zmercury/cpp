@@ -42,3 +42,14 @@ int main() {
 }
 ```
 
+
+Features of OOP
+-
+
+- Object
+- Class
+- Inhertitance
+- Polymorphism
+- Data Abstraction
+- Encapsulation
+- Flexible
