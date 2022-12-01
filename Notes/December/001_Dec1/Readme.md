@@ -21,18 +21,24 @@ Ternary Operator
 (condition) ? ture statement : false statement;
 ```
 
+1. 
 ```cpp
 //program that uses ternary operator
+
 
 #include <iostream>
 using namespace std;
 
 int main() {
-  int age = 21;
+  int age;
   string agePar;
+
+  cout << "Enter your age: ";
+  cin >> age;
 
   agePar = (age < 18) ? "Child" : "Adult";
   cout << agePar;
   return 0;
 }
 ```
+
