@@ -1,6 +1,6 @@
 # C++ - Second Semester 
 
-### Latest Note (December 1) - [Click Here](/Notes/December/001_Dec1/)
+### Latest Note - [Click Here 🖱️](/Notes/December/001_Dec1/)
 
 ## Table of Content
 
