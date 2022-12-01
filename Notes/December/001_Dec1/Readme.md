@@ -10,7 +10,27 @@ Increment / Decrement Operator
 Assignment
 -
 
-1. Post and pre increment/ decrement in c++
+1. Post and Pre increment/ decrement in c++
 
 Ternary Operator
 -
+
+```cpp
+(condition) ? ture statement : false statement;
+```
+
+```cpp
+//program that uses ternary operator
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int age = 21;
+  string agePar;
+
+  agePar = (age < 18) ? "Child" : "Adult";
+  cout << agePar;
+  return 0;
+}
+```
