@@ -12,3 +12,5 @@ Assignment
 
 1. Post and pre increment/ decrement in c++
 
+Ternary Operator
+-
