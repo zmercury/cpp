@@ -1,6 +1,6 @@
-![GitHub](https://img.shields.io/github/license/zmercury/cpp?style=for-the-badge)
-
 # 📜 C++ - Second Semester 
+
+![GitHub](https://img.shields.io/github/license/zmercury/cpp?style=for-the-badge)
 
 ### Latest Note - [👉 Click Here](#december)
 
