@@ -6,15 +6,15 @@ using namespace std;
 
 class student {
     public:
-        string userName;
+        string name;
 
         void enterName() {
             cout << "Enter your name: ";
-            cin >> userName;
+            cin >> name;
         }
 
         void displayName() {
-            cout << "Your name is " << userName;
+            cout << "Your name is " << name;
         }
 };
 
