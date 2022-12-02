@@ -6,7 +6,8 @@ using namespace std;
 
 class addNum {
     public:
-        int a=10, b=20;
+        int a=10;
+        int b=10;
 };
 
 int main() {
