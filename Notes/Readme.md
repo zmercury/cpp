@@ -1,10 +1,9 @@
 Notes
 -
 
-
-
-
-
+|Date|Content|Link|
+|---|---|---|
+|November| C Recap and C++ Basics (Part 1) | [Click Here](/Notes/November/)|
 
 
 
