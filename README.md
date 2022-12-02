@@ -37,4 +37,4 @@
 |Dec 2|  |[Notes](/Notes/December/002_Dec2/)|
 
 
-###### Copyright (c) 2022 [Mercury / Jupiter](https://nikhilbastola.com.np) 
+###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
