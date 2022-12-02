@@ -2,6 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/zmercury/cpp?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/zmercury/cpp?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/zmercury/cpp?style=for-the-badge)
 
 ### Latest Note - [👉 Click Here](#december)
 
