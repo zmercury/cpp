@@ -30,8 +30,7 @@
 |Date|Content|Link|
 |---|---|---|
 |Dec 1| Increment & Decrement Operator / Ternary Operator (Syntax and Example) <br/> Features of Object Oriented Programming |[Notes](/Notes/December/001_Dec1/)|
-
-
+|Dec 2|  |[Notes](/Notes/December/002_Dec2/)|
 
 
 ###### Copyright (c) 2022 [Mercury / Jupiter](https://nikhilbastola.com.np) 
