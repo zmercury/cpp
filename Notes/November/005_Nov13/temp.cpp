@@ -4,23 +4,25 @@ using namespace std;
 
 class temprature {
     public:
-        double tempFahren;
+        double tempFahrenheit;
+        double tempCelcius;
 
-        void convTemp(double temp) {
-            tempFahren = (temp * 1.8) + 32;
-            cout << "Temprature in F is " << tempFahren << "F";
+        void getTemprature() {
+            cout << "Enter temprature in celcius: ";
+            cin >> tempCelcius;
+        }
+
+        void convTemp() {
+            tempFahrenheit = (tempCelcius * 1.8) + 32;
+            cout << "Temprature in F is " << tempFahrenheit << "F";
         }    
 };
 
 int main() {
         temprature t1;
-        double tempCelcius;
 
-        cout << "Enter temprature in celcius: ";
-        cin >> tempCelcius;
-
-        t1.convTemp(tempCelcius);
+        t1.getTemprature();
+        t1.convTemp();
 
         return 0;
 }
-
