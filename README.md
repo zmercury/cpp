@@ -1,5 +1,4 @@
-
-<center> 
+<p align="center">
 
 # 📜 C++ - Second Semester 
 
@@ -7,10 +6,10 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/zmercury/cpp?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zmercury/cpp?style=for-the-badge)
 
-</center>
-
 ### Latest Assignment - [👉 Click Here](/Assignment/)
 ### Latest Note - [👉 Click Here](#december)
+
+</p>
 
 ## Table of Content
 
