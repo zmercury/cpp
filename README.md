@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
 
-# 📜 C++ - Second Semester 
+# 📜 C++ Notes and Assignment | 2nd Sem 
 
 ![GitHub](https://img.shields.io/github/license/zmercury/cpp?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/zmercury/cpp?style=for-the-badge)
@@ -9,7 +9,7 @@
 ### Latest Assignment - [👉 Click Here](/Assignment/)
 ### Latest Note - [👉 Click Here](#december)
 
-</p>
+</div>
 
 ## Table of Content
 
