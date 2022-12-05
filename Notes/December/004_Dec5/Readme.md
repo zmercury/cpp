@@ -49,10 +49,53 @@ class Student {
     }
 };
 
-class Student::input {
+class Student {
+    int age;
+    void Input();
+}
+
+Student::input {
         cout << "Enter age: ";
         cin >> age;
 }
 ```
 
 Scope resolution operator 
+
+```cpp
+//example
+
+#include <iostream>
+using namespace std;
+
+class evenOdd {
+        int number;
+    public:
+        int getInput();
+        int findEvenOdd();
+};
+
+int evenOdd::getInput() {
+        cout << "Enter any number: ";
+        cin >> number;
+        return 0;
+}
+
+int evenOdd::findEvenOdd() {
+    if(number % 2 == 0) {
+        cout << "Even";
+    } else {
+        cout << "Odd";
+    }
+    return 0;
+}
+
+int main() {
+    evenOdd eo;
+
+    eo.getInput();
+    eo.findEvenOdd();
+
+    return 0;
+}
+```
