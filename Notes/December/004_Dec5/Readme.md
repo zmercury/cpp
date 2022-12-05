@@ -60,7 +60,7 @@ Student::input {
 }
 ```
 
-Scope resolution operator 
+### Scope resolution operator 
 
 ```cpp
 //example
@@ -99,3 +99,21 @@ int main() {
     return 0;
 }
 ```
+
+### Insertion and Extraction Opetator
+
+```cpp
+//example
+
+cout << "Enter age: ";
+cin >> age;
+```
+
+|Insertion Operator (Output)|Extraction Operator (Input)|
+|:-:|:-:|
+|<<|>>|
+
+
+
+
+
