@@ -38,3 +38,21 @@ number n1;
 #### 1. Local
 #### 2. Static
 #### 3. Instance
+
+```cpp
+class Student {
+    int age;
+
+    void input() {
+        cout << "Enter age: ";
+        cin >> age;
+    }
+};
+
+class Student::input {
+        cout << "Enter age: ";
+        cin >> age;
+}
+```
+
+Scope resolution operator 
