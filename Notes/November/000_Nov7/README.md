@@ -2,7 +2,7 @@
 
 ## Sylabus
 
-|**Unit 1: Concept of C++ with Object Oriented Programming (6T+4P)**|
+|<div style="width:1000px">**Unit 1: Concept of C++ with Object Oriented Programming (6T+4P)**</div>|
 |---|
 1.1	Structured vs Object Oriented Programming Paradigm  
 1.2	Features of Object Oriented Programming
