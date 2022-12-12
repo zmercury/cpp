@@ -17,8 +17,8 @@
 
 |Date|Content|Link|
 |--------|---------|:---------:|
-|Nov 7|Syllabus|[Syllabus](/Notes/November/November/000_Nov7/)|
-|Nov 8|C Recap: Find Simple Interest, Sample of Switch and Loop Statement|[Notes](/Notes/November/November/001_Nov8/)|
+|Nov 7|Syllabus|[Syllabus](/Notes/November/000_Nov7/)|
+|Nov 8|C Recap: Find Simple Interest, Sample of Switch and Loop Statement|[Notes](/Notes/November/001_Nov8/)|
 |Nov 9|Basic Addition, User Input and find area of rectriangle|[Notes](/Notes/November/002_Nov9/)|
 |Nov 10|Simple Interest using double and Area of Circle (PI)|[Notes](/Notes/November/003_Nov10/)|
 |Nov 11|Classes in C++: Sample Programs|[Notes](/Notes/November/004_Nov11/)|
