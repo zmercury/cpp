@@ -24,7 +24,7 @@ int main() {
     cout << "Enter the marks of Subject D: ";
     cin >> subFour;
     cout << "Enter the marks of Subject E: ";
-    cin >> subThree;
+    cin >> subFive;
     
     sum = (subOne + subTwo + subThree + subFour + subFive);
 
