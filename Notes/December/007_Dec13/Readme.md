@@ -2,7 +2,7 @@
 
 <!-- ![Image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Implicit-Type-Conversion-in-c.png) -->
 
-<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Implicit-Type-Conversion-in-c.png" alt="Image" width="500px" height="auto" />
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Implicit-Type-Conversion-in-c.png" alt="Image" width="500px" height="auto" align="right" />
 
 ## Type of type conversion
 
