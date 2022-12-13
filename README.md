@@ -44,6 +44,7 @@
 |Dec&nbsp;5| Scope resolution operator , Insersion and Extraction Operator |[Notes](/Notes/December/004_Dec5/)|
 |Dec&nbsp;11| Namespace with syntax and example |[Notes](/Notes/December/005_Dec11/)|
 |Dec&nbsp;12| Data Type Conversion with Examples  |[Notes](/Notes/December/006_Dec12/)|
+|Dec&nbsp;13| Data Type Conversion with Examples  |[Notes](/Notes/December/007_Dec13/)|
 
 
 
