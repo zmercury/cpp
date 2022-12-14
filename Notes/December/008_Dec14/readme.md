@@ -61,5 +61,39 @@ int main() {
 
 ### Homework
 
-1. What do you mean by Dymnamic memory allocation. Explain how we can allocate dynamic memory in an array ising mew and delete operator in C++.
+#### 1. What do you mean by Dymnamic memory allocation. Explain how we can allocate dynamic memory in an array using new and delete operator in C++.
+
+> Dynamic memory allocation is the process of assigning the memory space during the execution time or the run time.
+
+> A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime.
+
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+	int i, n;
+    
+	cout << "How many numbers will you type: ";
+	cin >>n;
+
+	int *arr = new int(n);
+
+	cout << "Enter " << n << " numbers" << endl;
+	for (i = 0; i < n; i++) {
+		cin >> arr[i];
+	}
+
+	cout << "You typed: ";
+	for (i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
+
+	cout << endl;
+
+	delete [] arr;
+	return 0;
+}
+```
 
