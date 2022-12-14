@@ -59,3 +59,7 @@ int main() {
 }
 ```
 
+### Homework
+
+1. What do you mean by Dymnamic memory allocation. Explain how we can allocate dynamic memory in an array ising mew and delete operator in C++.
+
