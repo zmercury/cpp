@@ -40,3 +40,26 @@ int main() {
 		return 0;
 }
 ```
+
+## Homework
+
+#### 1. What do you mean by operator? Explain bitwise operators in detail with proper explanations and examples of each.
+
+* An Operator is a character that represents a specific mathematical or logical action or process.
+
+### Bitwise Operator
+
+<img style="width: 450px; height: auto;" align="right" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Operators-In-C.png" />
+
+* Those operators that performs operations on integer data at the individual bit-level are called bitwise operators.
+
+### List of 6 bitwise operators included in C++
+|Operator|Description|
+|:-:|---|
+|&|Bitwise AND Operator|
+|&#124;|Bitwise OR Operator|
+|^|Bitwise XOR Operator|
+|~|	Bitwise Complement Operator|
+|<<|Bitwise Shift Left Operator|
+|>>|Bitwise Shift Right Operator|
+
