@@ -44,6 +44,7 @@ int main() {
 ## Homework
 
 #### 1. What do you mean by operator? Explain bitwise operators in detail with proper explanations and examples of each.
+<img style="width: 450px; height: auto;" align="right" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Operators-In-C.png" />
 
 * An Operator is a character that represents a specific mathematical or logical action or process.
 
@@ -53,7 +54,6 @@ int main() {
 * Those operators that performs operations on integer data at the individual bit-level are called bitwise operators.
 
 ### List of 6 bitwise operators included in C++
-<img style="width: 450px; height: auto;" align="right" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Operators-In-C.png" />
 
 |Operator|Description|
 |:-:|---|
