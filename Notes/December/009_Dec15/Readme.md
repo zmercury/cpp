@@ -49,9 +49,9 @@ int main() {
 
 ### Bitwise Operator
 
-<img style="width: 450px; height: auto;" align="right" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Operators-In-C.png" />
 
 * Those operators that performs operations on integer data at the individual bit-level are called bitwise operators.
+<img style="width: 450px; height: auto;" align="right" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Operators-In-C.png" />
 
 ### List of 6 bitwise operators included in C++
 |Operator|Description|
