@@ -10,6 +10,8 @@
 |Dec&nbsp;11| Namespace with syntax and example |[Notes](/Notes/December/005_Dec11/)|
 |Dec&nbsp;12| Data Type Conversion with Examples |[Notes](/Notes/December/006_Dec12/)|
 |Dec&nbsp;13| Types of Data Type Conversion with Examples  |[Notes](/Notes/December/007_Dec13/)|
+|Dec&nbsp;14| Dynamic Memory Allocation and its example  |[Notes](/Notes/December/008_Dec14/)|
+|Dec&nbsp;15|  |[Notes](/Notes/December/009_Dec15/)|
 
 
 

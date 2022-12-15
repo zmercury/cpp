@@ -62,8 +62,9 @@ int main() {
 ## Homework
 
 #### 1. What do you mean by Dynamic memory allocation? Explain how we can allocate dynamic memory in an array using new and delete operator in C++.
-Dynamic memory allocation is the process of assigning the memory space during the execution time or the run time.
-<br/> A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime.
+ Dynamic memory allocation is the process of assigning the memory space during the execution time or the run time.
+<br/> 
+* A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime.
 
 
 ```cpp
@@ -96,4 +97,3 @@ int main() {
 	return 0;
 }
 ```
-
