@@ -47,7 +47,7 @@
 |Dec&nbsp;13| Types of Data Type Conversion with Examples  |[Notes](/Notes/December/007_Dec13/)|
 |Dec&nbsp;14| Dynamic Memory Allocation and its example - Assignment [Click Here](/Notes/December/008_Dec14#homework)  |[Notes](/Notes/December/008_Dec14/)|
 |Dec&nbsp;15| Bitwise Operator and Return Type - Assignment [Click Here](/Notes/December/009_Dec15#homework) |[Notes](/Notes/December/009_Dec15/)|
-|Dec&nbsp;16| |[Notes](/Notes/December/010_Dec16/)|
+|Dec&nbsp;16| Inline Function |[Notes](/Notes/December/010_Dec16/)|
 
 
 
