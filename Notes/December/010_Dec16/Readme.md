@@ -80,3 +80,27 @@ int main() {
     return 0;
 }
 ```
+
+```cpp
+//
+
+#include <iostream>
+using namespace std;
+
+class calc{
+    public:
+        inline int add(int a, int b) {
+            return (a+b);
+        }
+};
+
+int main() {
+    calc c1;
+
+    int m=6,n-5;
+
+    cout << "The sum = " << c1.add(m,n) << endl;
+
+    return 0;
+}
+```
