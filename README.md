@@ -9,8 +9,7 @@
 
 </div>
 
-### Latest Assignment of Dec 14- [👉 Click Here](/Assignment/)
-### Latest Assignment of Dec 15- [👉 Click Here](/Assignment/#dec-15)
+### Latest Assignment of Dec 14 & 15 - [👉 Click Here](/Assignment/)
 ### Latest Note - [👉 Click Here](#december)
 ## Table of Content
 
