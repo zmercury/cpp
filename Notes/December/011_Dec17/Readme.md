@@ -64,3 +64,24 @@ cout << add(5); //Single Parameter
 cout << add(5, 2.3); //Dual Parameter with correct Data types
 cout << add(3.5, 3); //Dual Parameter with incorrect Data types
 ```
+
+### Example
+
+#### 1. Use of default argument in C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b, int c = 0, int d = 0) {
+    return (a + b + c + d);
+}
+
+int main() {
+    cout << sum(12, 34) << endl;
+    cout << sum(12, 34, 24) << endl;
+    cout << sum(12, 34, 12, 42);
+
+    return 0;
+}
+```
