@@ -59,3 +59,14 @@ Reference Variable can be declared with the symbol : & (Ampersand)
 1. We can change the parameter passed in the function
 1. It helps to avoid copying large structures
 1. It helps to increase the efficiency of the program 
+
+### Homework
+
+#### 1. Differenciate between Default Arguments and Reference Arguments
+
+|Default Arguments|Reference Argument|
+|---|---|
+|||
+
+#### 2. How default argument is differ from reference argument.
+
