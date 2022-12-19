@@ -4,6 +4,8 @@
 
 ### Example
 
+
+#### 1. Simple program that demonstrate the use of reference variable
 ```cpp
 #include <iostream>
 using namespace std;
@@ -22,3 +24,30 @@ int main() {
     return 0;
 }
 ```
+
+#### 2. Swaping value using reference variable
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void swap(int &first, int &sec) {
+    int temp = first;
+    first = sec;
+    sec = temp;
+}
+
+int main() {
+    int a = 23, b = 45;
+
+    swap(a, b);
+
+    cout << "A = " << a << endl;
+    cout << "B = " << b << endl;
+
+    return 0;
+}
+```
+
+### IMP
+#### 1. What is refernce argument in C++? Write a program in c++ to swap numbers using reference arguments.  
