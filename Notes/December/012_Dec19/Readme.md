@@ -52,5 +52,10 @@ int main() {
 ### IMP
 #### 1. What is refernce argument in C++? Write a program in c++ to swap numbers using reference arguments.  
 
-    In C++, we can create a reference of a variable which can change variables value and becomes an alternate name for an existing variable. <br>
-    Reference Variable can be declared with the symbol : & (Ampersand)
+<p style="font-size: 16px;">In C++, we can create a reference of a variable which can change variables value and becomes an alternate name for an existing variable. <br>
+Reference Variable can be declared with the symbol : & (Ampersand)
+</p>
+
+### Use if reference argument
+1. We can change the parameter passed in the function
+1. 
