@@ -64,25 +64,25 @@ Reference Variable can be declared with the symbol : & (Ampersand)
 
 #### 1. Differenciate between Default Arguments and Reference Arguments
 
-<table>
-<tr><td><b>Default Argument</b></td><td><b>Reference Argument</b></td></tr>
+<table width="100%">
+<tr><td width="50%"><b>Default Argument</b></td><td width="50%"><b>Reference Argument</b></td></tr>
 <tr>
-<td> A default argument is a value provided in a function declaration that is <br>automatically assigned by the compiler if the calling function <br> doesn't provide a value for the argument </td>
-<td> A reference parameter is a reference to a memory location of a variable </td>
+<td width="50%"> A default argument is a value provided in a function declaration that is automatically assigned by the compiler if the calling function doesn't provide a value for the argument </td>
+<td width="50%"> A reference parameter is a reference to a memory location of a variable </td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td width="50%"></td>
+<td width="50%"></td>
 </tr>
 <tr>
-<td>
+<td width="50%">
 Syntax:
 
 ```cpp
 int sum(int x, int y, int z = 0, int w = 0){...}
 ```
 </td>
-<td>
+<td width="50%">
 Syntax:
 
 ```cpp
