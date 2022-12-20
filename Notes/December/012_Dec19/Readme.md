@@ -65,7 +65,7 @@ Reference Variable can be declared with the symbol : & (Ampersand)
 #### 1. Differenciate between Default Arguments and Reference Arguments
 
 <table width="100%">
-<tr><td width="50%"><b>Default Argument</b></td><td width="50%"><b>Reference Argument</b></td></tr>
+<tr><th width="50%">Default Argument</th><th width="50%">Reference Argument</th></tr>
 <tr>
 <td width="50%"> A default argument is a value provided in a function declaration that is automatically assigned by the compiler if the calling function doesn't provide a value for the argument </td>
 <td width="50%"> A reference parameter is a reference to a memory location of a variable </td>
@@ -93,6 +93,8 @@ int &ref=a;
 </table>
 
 #### 2. How default argument is differ from reference argument.
+
+
 
 
 
