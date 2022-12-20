@@ -49,7 +49,7 @@
 |Dec&nbsp;15| Bitwise Operator and Return Type - Assignment [Click Here](/Notes/December/009_Dec15#homework) |[Notes](/Notes/December/009_Dec15/)|
 |Dec&nbsp;16| Inline Function |[Notes](/Notes/December/010_Dec16/)|
 |Dec&nbsp;18| Overloaded Function & Default Argument |[Notes](/Notes/December/011_Dec18/)|
-|Dec&nbsp;19| Reference Var in C++ & Assignment (Click Here)[/Notes/December/012_Dec19/] |[Notes](/Notes/December/012_Dec19/#homework)|
+|Dec&nbsp;19| Reference Var in C++ & Assignment -> [Click Here](/Notes/December/012_Dec19/) |[Notes](/Notes/December/012_Dec19/#homework)|
 |Dec&nbsp;20| Return by Reference |[Notes](/Notes/December/013_Dec20/)|
 |Dec&nbsp;21|  |[Notes](/Notes/December/014_Dec21/)|
 
