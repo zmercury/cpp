@@ -50,6 +50,8 @@
 |Dec&nbsp;16| Inline Function |[Notes](/Notes/December/010_Dec16/)|
 |Dec&nbsp;18| Overloaded Function & Default Argument |[Notes](/Notes/December/011_Dec18/)|
 |Dec&nbsp;19| Reference Var in C++ & Assignment (Click Here)[/Notes/December/012_Dec19/] |[Notes](/Notes/December/012_Dec19/#homework)|
+|Dec&nbsp;20| |[Notes](/Notes/December/013_Dec20/)|
+
 
 
 
