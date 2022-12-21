@@ -17,6 +17,7 @@
 |Dec&nbsp;19| Reference Var in C++ & Assignment -> [Click Here](/Notes/December/012_Dec19/) |[Notes](/Notes/December/012_Dec19/#homework)|
 |Dec&nbsp;20| Return by Reference |[Notes](/Notes/December/013_Dec20/)|
 |Dec&nbsp;21| Constuctor and Destructor |[Notes](/Notes/December/014_Dec21/)|
+|Dec&nbsp;22|  |[Notes](/Notes/December/015_Dec22/)|
 
 
 
