@@ -42,3 +42,30 @@ int main() {
         return 0;
 }
 ```
+
+#### 2. Demonstrate an example of contructor that can be defined outside the class 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Student{
+    public:
+        int roll;
+
+        // declaring constructor
+        Student();
+};
+
+Student::Student() {
+        roll = 12;
+}
+
+int main() {
+        Student std;
+
+        cout << "The roll number is = " << std.roll;
+
+        return 0;
+}
+```
