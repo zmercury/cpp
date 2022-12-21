@@ -6,6 +6,13 @@
 <br/> 
 * A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime.
 
+During the creation of an array, it is allocated a predetermined amount of memory. This is not the case with a dynamic array as it grows its memory size by a certain factor when there is a need.
+
+### The new Keyword
+In C++, we can create a dynamic array using the new keyword. The number of items to be allocated is specified within a pair of square brackets. The type name should precede this. The requested number of items will be allocated.
+
+
+
 
 ```cpp
 // an example of dynamic memory allocation in c++ using an array
