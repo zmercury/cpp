@@ -138,3 +138,4 @@ int main() {
 1. The program will return value when it completes successfully.
 1. End of the body of the main() function.
 
+**This is how memory is dynamically allocated in array and deleted after the completion of the program.**
