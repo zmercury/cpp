@@ -1,6 +1,6 @@
 ### 1. What do you mean by Dynamic memory allocation? Explain how we can allocate dynamic memory in an array using new and delete operator in C++.
 
-The process of allocation of memory during the program runtime is known as Dynamic Memory Allocation. A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime. DynamArray elements occupy a contiguous block of memory. Dynamic Array grows its memory size by a certain factor when there is need. 
+The process of allocation of memory during the program runtime is known as Dynamic Memory Allocation. A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime. Dynamic Array elements occupy a contiguous block of memory. Dynamic Array grows its memory size by a certain factor when there is need. 
 
 We can allocate the memory using **New** operator. 
 
