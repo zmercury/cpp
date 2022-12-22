@@ -28,22 +28,18 @@ class student{
         string name;
 
         public:
-                student();
-                void display();
+                student() { //default constructor
+                    cout << "Enter the roll no: ";
+                    cin >> roll;
+
+                    cout << "Enter the name: ";
+                    cin >> name;
+                };
+                void display() {
+                    cout << "Roll no = " << roll << endl;
+                    cout << "Name = " << name;
+                };
 };
-
-student::student() {
-                cout << "Enter the roll no: ";
-                cin >> roll;
-
-                cout << "Enter the name: ";
-                cin >> name;
-}
-
-void student::display() {
-                cout << "Roll no = " << roll << endl;
-                cout << "Name = " << name;
-}
 
 int main() {
     student std;
