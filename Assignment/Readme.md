@@ -2,7 +2,7 @@
 
 The process of allocation of memory during the program runtime is known as Dynamic Memory Allocation. A dynamic array is quite similar to a regular array, but its size is modifiable during program runtime. Dynamic Array elements occupy a contiguous block of memory. Dynamic Array grows its memory size by a certain factor when there is need. 
 
-We can allocate the memory using **New** operator. 
+We can allocate the memory in an array using **New** operator. 
 
 ### New Operator
 The New operator requests for the memory allocation in heap. “Heap” memory, also known as “dynamic” memory, is an alternative to local stack memory. If the sufficient memory is available, it initializes the memory to the pointer variable and returns its address.
@@ -12,7 +12,7 @@ The New operator requests for the memory allocation in heap. “Heap” memory, 
 pointer_variable = new datatype(value);
 ```
 
-#### Example of New Operator
+#### Example of New Operator being used to initialize an array
 ```cpp
 #include<iostream>
 using namespace std;
@@ -66,7 +66,7 @@ int main() {
 1. The program must return value upon successful completion.
 1. End of the body of the main() function.
 
-And the allocated memory can be freed by using **Delete** operator.
+And the allocated memory in array can be freed by using **Delete** operator.
 
 ### Delete Operator
 
@@ -74,10 +74,10 @@ The delete operator is used to de-allocated memory occupied by an object. The de
 
 #### Syntax for Delete operator
 ```cpp
-delete pointer-variable;  
+delete [] pointer-variable;  
 ```
 
-#### Example of Delete Operator
+#### Example of Delete Operator being used to delete the pointer variable used in array
 ```cpp
 #include<iostream>
 using namespace std;
