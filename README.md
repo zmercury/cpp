@@ -1,5 +1,7 @@
 <div align="center">
 
+## Bibek Ghimire is copying my shit 😂😂
+
 # 📜 C++ | Notes and Assignment | 2nd Semester
 
 ![GitHub](https://img.shields.io/github/license/zmercury/cpp?style=for-the-badge)
@@ -8,6 +10,8 @@
 
 
 </div>
+
+
 
 ### Latest Assignment of Dec 14 & 15 - [👉 Click Here](/Assignment/)
 ### Latest Note - [👉 Click Here](#december)
