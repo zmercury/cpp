@@ -1,6 +1,6 @@
 <div align="center">
 
-## Bibek Ghimire is copying my shit 😂😂
+## Bibek Ghimire is copying my shit 😂😂 -> [Click Here](https://github.com/Ether18/cpp)
 
 # 📜 C++ | Notes and Assignment | 2nd Semester
 
