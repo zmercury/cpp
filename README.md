@@ -1,6 +1,6 @@
 <div align="center">
 
-<marquee><h2>Bibek Ghimire is copying my shit 😂😂 -> [Click Here](https://github.com/Ether18/cpp) </h2></marquee>
+<h2>Bibek Ghimire is copying my shit 😂😂 -> [Click Here](https://github.com/Ether18/cpp) </h2>
 
 # 📜 C++ | Notes and Assignment | 2nd Semester
 
