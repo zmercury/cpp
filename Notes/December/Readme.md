@@ -18,7 +18,7 @@
 |Dec&nbsp;20| Return by Reference |[Notes](/Notes/December/013_Dec20/)|
 |Dec&nbsp;21| Constructor and Destructor |[Notes](/Notes/December/014_Dec21/)|
 |Dec&nbsp;22| Type of Constructor |[Notes](/Notes/December/015_Dec22/)|
-|Dec&nbsp;23|  |[Notes](/Notes/December/016_Dec23/)|
+|Dec&nbsp;23| Classwork |[Notes](/Notes/December/016_Dec23/)|
 
 
 
