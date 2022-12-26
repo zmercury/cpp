@@ -59,3 +59,53 @@ int main() {
         return 0;
 }
 ```
+
+#### Example Three
+
+```cpp
+//Use of multiple parameter s
+
+#include <iostream>
+using namespace std;
+
+class Student{
+    string name;
+    int roll;
+
+    public:
+        Student(string stu_name) {
+            name = stu_name;
+            roll = 12;
+        }
+
+        Student(int stu_roll) {
+            name = "Sita";
+            roll = stu_roll;
+        }
+
+        Student(string stu_name, int stu_roll) {
+            name = stu_name;
+            roll = stu_roll;
+        }
+
+        void display() {
+            cout << "Name = " << name << endl;
+            cout << "Roll no. = " << roll << endl;
+        }
+};
+
+int main() {
+        Student s1("Mercury");
+        Student s2(17);
+        Student s3("Nikhil",18);
+
+        s1.display();
+        s2.display();
+        s3.display();
+
+        return 0;
+}
+```
+
+
+#### What is Constructor? Differenciate default constructor and parameterized constructor. 
