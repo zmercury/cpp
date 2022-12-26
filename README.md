@@ -61,6 +61,4 @@
 |Dec&nbsp;26| Parameterized Constructor |[Notes](/Notes/December/017_Dec26/)|
 |Dec&nbsp;27|  |[Notes](/Notes/December/018_Dec27/)|
 
-
-
 ###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
