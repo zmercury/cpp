@@ -39,9 +39,11 @@ int main() {
     int a = 1;
     
     if(a == 1) {
-            className obj2;
+        className obj2;
     }
 
     return 0;
 }
 ```
+
+Destructor has same name as class name with prefix (~) Tilde operator. Destructor takes no argument and have no return type. Destructor cannot be overloaded. 
