@@ -13,7 +13,7 @@ class class_name{
     private:
         int a,b;
     
-    pu  blic: 
+    public: 
     
         // declaring Constructor
         class_name(int aa, int bb)
