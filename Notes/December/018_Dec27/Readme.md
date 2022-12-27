@@ -53,10 +53,10 @@ Destructor has same name as class name with prefix (~) Tilde operator. Destructo
 ### 1. Explain the concept of Constructor and Destructor with syntax and example.
 ### 2. Differenciate between Constructor and Destructor.
 ### 3. Which of the following is the way to access Constructor if classname is Student.
-- [ ]   () Student {}
-- [ ] Student {}
-- [x] Student () {} 
-- [ ] student () {}
+1. () Student {}
+1. Student {}
+1. ✅Student () {} 
+1. student () {}
 
 ### 4. Which of the following is the way to call Destructor.
 
