@@ -14,4 +14,34 @@ class class_name {
         // Destructor body
     }
 };
+``` 
+
+#### Example
+
+```cpp
+// Example of Destructor
+
+#include <iostream>
+using namespace std;
+
+class className {
+    public:
+        className() {
+            cout << "Constructor called!" << endl;
+        }
+        ~className() {
+            cout << "Destructor called!" << endl;
+        }
+};
+
+int main() {
+    className obj;
+    int a = 1;
+    
+    if(a == 1) {
+            className obj2;
+    }
+
+    return 0;
+}
 ```
