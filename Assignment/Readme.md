@@ -1,48 +1,68 @@
-### December 19
+### 1. How constructor and destructor are called when the object is created and destoryed.
 
-
-#### 1. Differenciate between Default Arguments and Reference Arguments
-
-<table width="100%">
-<tr>
-<th width="50%">Default Argument</th><th width="50%">Reference Argument</th></tr>
-<tr>
-<td width="50%"> A default argument is a value provided in a function declaration that is automatically assigned by the compiler if the calling function doesn't provide a value for the argument </td>
-<td width="50%"> A reference parameter is a reference to a memory location of a variable </td>
-</tr>
-<tr>
-<td width="50%"> Changes made inside the function is not reflected on the other functions.</td>
-<td width="50%">Changes made inside the function is also reflected outside the function once it is called.</td>
-</tr>
-<tr>
-<td width="50%">Orginal Value is not modified</td>
-<td width="50%">Orginal Value is modified</td>
-</tr>
-<tr>
-<td width="50%">Value of the variable is passed directly</td>
-<td width="50%">Pointer variable is required to store the address of the variable</td>
-</tr>
-<tr>
-<td width="50%">
-Syntax:
+As constructor is the first function called by the compiler when an object is created and the destructor is the last class member called by the compiler for an object. If the constructor and destructor are not declared by the user, the compiler defines the default constructor and destructor of a class object.
+Let’s see a code to get the proper idea of how constructor and destructor are called:
+First, we will create a class with single parametrized constructors and a destructor. Both of them contain print statements to give an idea of when they are called.
 
 ```cpp
-int sum(int x, int y, int z = 0, int w = 0){...}
+#include <iostream>
+using namespace std;
+
+class class_name{
+    // declaring private class data members 
+    private:
+        int a,b;
+    
+    pu  blic: 
+    
+        // declaring Constructor
+        class_name(int aa, int bb)
+        {
+            cout<<"Constructor is called"<<endl;
+            a = aa;
+            b = bb;
+            
+            cout<<"Value of a: "<<a<<endl;
+            cout<<"Value of b: "<<b<<endl;
+            cout<<endl;
+        }
+    
+        // declaring destructor
+        ~class_name()
+        {
+        cout<<"Destructor is called"<<endl;
+        cout<<"Value of a: "<<a<<endl;
+        cout<<"Value of b: "<<b<<endl;
+    }  
+};
+int main() 
+{
+    // creating objects of class using parameterized constructor
+    class_name obj(5,6);
+    
+    return 0;
+}
 ```
-</td>
-<td width="50%">
-Syntax:
 
-```cpp
-int &ref=a;
+#### Output
+
+```md
+> Constructor is called
+> Value of a: 5
+> Value of b: 6
+
+> Destructor is called
+> Value of a: 5
+> Value of b: 6
 ```
-</td>
-</tr>
-</table>
 
-#### 2. How default argument is differ from reference argument.
+In the above code, we have created a class with constructor and destructor. In the main function, an object uses a parametric constructor, and when the program ends the destructor is automatically called by the compiler and we get the values of our variables.
 
+### Conclusion
 
-
-
-
+- Constructor and Destructor are the special member functions of the class which are created by the C++ compiler or can be defined by the user.
+- Constructor is called by the compiler whenever the object of the class is created, it allocates the memory to the object and initializes class data members.
+- A destructor is called by the compiler when the object is destroyed and its main function is to deallocate the memory of the object.
+- Constructors have the same as of class while destructors have the same name of the class with the prefix a tilde (~) operator.
+- Both Constructor and destructor can be defined as public, private, or protected. But it is better to declare the constructor as public.
+- The constructor can have parameters but the destructor doesn’t receive any parameters.
