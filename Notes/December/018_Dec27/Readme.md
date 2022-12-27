@@ -8,11 +8,10 @@ Destructor is just opposite of Constructor. A Destructor is called by the compil
 ```cpp
 class class_name {
     //constructor
-    class_name() {
+    class_name() { }
         // Destructor
-        ~class_name() {
-            // Destructor body
-        }
-     }
+    ~class_name() {
+        // Destructor body
+    }
 };
 ```
