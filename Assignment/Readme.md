@@ -1,69 +1,76 @@
-### 1. How constructor and destructor are called when the object is created and destoryed.
+## 1) What is Copy Constructor? Explain how and when to use copy constructor in a program?
 
-As constructor is the first function called by the compiler when an object is created and the destructor is the last class member called by the compiler for an object. If the constructor and destructor are not declared by the user, the compiler defines the default constructor and destructor of a class object.
-Let’s see a code to get the proper idea of how constructor and destructor are called:
-First, we will create a class with single parametrized constructors and a destructor. Both of them contain print statements to give an idea of when they are called.
+The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously. The copy constructor is used to −
+- Initialize one object from another of the same type.
+- Copy an object to pass it as an argument to a function.
+- Copy an object to return it from a function.
+
+If a copy constructor is not defined in a class, the compiler itself defines one.If the class has pointer variables and has some dynamic memory allocations, then it is a must to have a copy constructor. The most common form of copy constructor is shown below.
+
+#### Syntax of user-defined copy constructor
 
 ```cpp
-#include <iostream>
-using namespace std;
-
-class class_name{
-    // declaring private class data members 
-    private:
-        int a,b;
-    
-    public: 
-    
-        // declaring Constructor
-        class_name(int aa, int bb)
-        {
-            cout<<"Constructor is called"<<endl;
-            a = aa;
-            b = bb;
-            
-            cout<<"Value of a: "<<a<<endl;
-            cout<<"Value of b: "<<b<<endl;
-            cout<<endl;
-        }
-    
-        // declaring destructor
-        ~class_name()
-        {
-        cout<<"Destructor is called"<<endl;
-        cout<<"Value of a: "<<a<<endl;
-        cout<<"Value of b: "<<b<<endl;
-    }  
-};
-int main() 
-{
-    // creating objects of class using parameterized constructor
-    class_name obj(5,6);
-    
-    return 0;
+classname (const classname &obj) {
+   // body of constructor
 }
 ```
 
+### i) How to use Copy Constructor
+
+```cpp
+//Simple program that prints the two integer value using user-defined copy constructor in C++
+
+#include<iostream>
+using namespace std;
+class Demo {
+   private:
+        int num1, num2;
+   public:
+        Demo(int n1, int n2) {
+            num1 = n1;
+            num2 = n2;
+        }
+        Demo(const Demo &n) {
+            num1 = n.num1;
+            num2 = n.num2;
+        }
+        void display() {
+            cout<<"num1 = "<< num1 <<endl;
+            cout<<"num2 = "<< num2 <<endl;
+        }
+};
+int main() {
+   Demo obj1(10, 20);
+   Demo obj2 = obj1;
+
+   obj1.display();
+   obj2.display();
+
+   return 0;
+}
+```
 
 #### Output
 
 ```md
-> Constructor is called
-> Value of a: 5
-> Value of b: 6
+> num1 = 10
+> num2 = 20
 
-> Destructor is called
-> Value of a: 5
-> Value of b: 6
+> num1 = 10
+> num2 = 20
 ```
 
-In the above code, we have created a class with constructor and destructor. In the main function, an object uses a parametric constructor, and when the program ends the destructor is automatically called by the compiler and we get the values of our variables.
+### Code explaination
 
-### Conclusion
+1. Class called "Demo" is created.
+2. Class "Demo" contains a normal parameterized constructor and a copy constructor. In addition to these, there is a function that displays the values of num1 and num2.
+3. In the function main(), the class obj1 is initialized using a parameterized constructor. 
+4. But, The obj2 is initialized using a copy constuctor and the values of obj1 are copied into obj2. 
+5. Finally, The value of obj1 and obj2 are printed on the console by calling the display function created in Class Demo.
 
-- Constructor and Destructor are the special member functions of the class which are created by the C++ compiler or can be defined by the user.
-- Constructor is called by the compiler whenever the object of the class is created, it allocates the memory to the object and initializes class data members.
-- A destructor is called by the compiler when the object is destroyed and its main function is to deallocate the memory of the object.
-- Constructors have the same as of class while destructors have the same name of the class with the prefix a tilde (~) operator.
-- Both Constructor and destructor can be defined as public, private, or protected. But it is better to declare the constructor as public.
-- The constructor can have parameters but the destructor doesn’t receive any parameters.
+### ii) When to use Copy Constructor?
+
+The default copy constructor is a shallow copy. That is it is a straight memory copy of the object. However, if any of the properties in the object are pointers to other objects, or memory, only the pointers are copied. So if any of that data changes at a later time, the copied object may be corrupt.
+
+So, we need to define our own copy constructor only if an object has pointers or any runtime allocation of the resource.
+
