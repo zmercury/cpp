@@ -70,7 +70,7 @@ int main() {
 
 ### ii) When to use Copy Constructor?
 
-The default copy constructor is a shallow copy. That is it is a straight memory copy of the object. However, if any of the properties in the object are pointers to other objects, or memory, only the pointers are copied. So if any of that data changes at a later time, the copied object may be corrupt.
+The default copy constructor is a shallow copy(i.e An object is created by simply copying the data of all variables of the original object). That is it is a straight memory copy of the object. However, if any of the properties in the object are pointers to other objects, or memory, only the pointers are copied. So if any of that data changes at a later time, the copied object may be corrupt.
 
 So, we need to define our own copy constructor only if an object has pointers or any runtime allocation of the resource.
 
