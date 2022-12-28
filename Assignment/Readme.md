@@ -60,7 +60,7 @@ int main() {
 > num2 = 20
 ```
 
-### Code explaination
+### Code explaination on how to use Copy Constructor
 
 1. Class called "Demo" is created.
 2. Class "Demo" contains a normal parameterized constructor and a copy constructor. In addition to these, there is a function that displays the values of num1 and num2.
