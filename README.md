@@ -60,7 +60,7 @@
 |Dec&nbsp;23| Classwork |[Notes](/Notes/December/016_Dec23/)|
 |Dec&nbsp;26| Parameterized Constructor |[Notes](/Notes/December/017_Dec26/)|
 |Dec&nbsp;27| Destructor |[Notes](/Notes/December/018_Dec27/)|
-|Dec&nbsp;28|  |[Notes](/Notes/December/019_Dec28/)|
+|Dec&nbsp;28| Copy Constructor |[Notes](/Notes/December/019_Dec28/)|
 |Dec&nbsp;29| Constructor Overloading |[Notes](/Notes/December/020_Dec29/)|
 
 
