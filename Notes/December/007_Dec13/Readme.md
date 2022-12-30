@@ -83,10 +83,10 @@ int main() {
     int num_int = (int)num_double;
 
     //function notation
-    int num_int = int(num_double);
+    num_int = int(num_double);
 
-    cout << "The given double value is " << num_double;
-    cout << "C Style integer type casting = " << num_int;
+    cout << "The given double value is " << num_double << endl;
+    cout << "C Style integer type casting = " << num_int << endl;
     cout << "Integer Type Casting using function notation is = " << num_int;
 
     return 0;
