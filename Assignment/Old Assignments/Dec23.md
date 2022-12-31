@@ -44,8 +44,8 @@ int main() {
 
 Certainly! Here is a short summary of what the code does:
 
-The code defines a class called MyClass with a constructor and a destructor.
-The main function creates an object of the MyClass class using the new operator and assigns it to a pointer p. This causes the constructor for the MyClass class to be called.
-The main function then destroys the object using the delete operator. This causes the destructor for the MyClass class to be called.
-The main function returns 0 to indicate that the program ran successfully.
+- The code defines a class called MyClass with a constructor and a destructor.
+- The main function creates an object of the MyClass class using the new operator and assigns it to a pointer p. This causes the constructor for the MyClass class to be called.
+- The main function then destroys the object using the delete operator. This causes the destructor for the MyClass class to be called.
+- The main function returns 0 to indicate that the program ran successfully. <br><br>
 The purpose of the constructor and destructor in this example is to print a message to the console when the object is created and destroyed. The constructor prints the message "Constructor called", and the destructor prints the message "Destructor called".
