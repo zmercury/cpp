@@ -43,3 +43,7 @@ int &ref=a;
 #### 2. How default argument is differ from reference argument.
 
 
+In C++, default arguments are arguments that are automatically assigned a default value if the caller of the function does not provide a value for them. Default arguments allow you to specify default values for function parameters, which can make the function easier to use and more flexible.
+
+On the other hand, reference arguments are arguments that are passed to a function by reference, rather than by value. When a function is called with a reference argument, the function can modify the original variable that was passed to it, rather than just working with a copy of the value.
+
