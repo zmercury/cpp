@@ -8,39 +8,27 @@ First, we will create a class with single parametrized constructors and a destru
 #include <iostream>
 using namespace std;
 
-class class_name{
-    // declaring private class data members 
-    private:
-        int a,b;
-    
-    public: 
-    
-        // declaring Constructor
-        class_name(int aa, int bb)
-        {
-            cout<<"Constructor is called"<<endl;
-            a = aa;
-            b = bb;
-            
-            cout<<"Value of a: "<<a<<endl;
-            cout<<"Value of b: "<<b<<endl;
-            cout<<endl;
-        }
-    
-        // declaring destructor
-        ~class_name()
-        {
-        cout<<"Destructor is called"<<endl;
-        cout<<"Value of a: "<<a<<endl;
-        cout<<"Value of b: "<<b<<endl;
-    }  
+class MyClass {
+public:
+  // Constructor
+  MyClass() {
+    cout << "Constructor called" << endl;
+  }
+
+  // Destructor
+  ~MyClass() {
+    cout << "Destructor called" << endl;
+  }
 };
-int main() 
-{
-    // creating objects of class using parameterized constructor
-    class_name obj(5,6);
-    
-    return 0;
+
+int main() {
+  // Create an object of the MyClass class
+  MyClass* p = new MyClass();
+
+  // Destroy the object
+  delete p;
+
+  return 0;
 }
 ```
 
@@ -48,13 +36,8 @@ int main()
 #### Output
 
 ```md
-> Constructor is called
-> Value of a: 5
-> Value of b: 6
-
-> Destructor is called
-> Value of a: 5
-> Value of b: 6
+> Constructor called
+> Destructor called
 ```
 
 In the above code, we have created a class with constructor and destructor. In the main function, an object uses a parametric constructor, and when the program ends the destructor is automatically called by the compiler and we get the values of our variables.
