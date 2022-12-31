@@ -40,13 +40,12 @@ int main() {
 > Destructor called
 ```
 
-In the above code, we have created a class with constructor and destructor. In the main function, an object uses a parametric constructor, and when the program ends the destructor is automatically called by the compiler and we get the values of our variables.
-
 ### Conclusion
 
-- Constructor and Destructor are the special member functions of the class which are created by the C++ compiler or can be defined by the user.
-- Constructor is called by the compiler whenever the object of the class is created, it allocates the memory to the object and initializes class data members.
-- A destructor is called by the compiler when the object is destroyed and its main function is to deallocate the memory of the object.
-- Constructors have the same as of class while destructors have the same name of the class with the prefix a tilde (~) operator.
-- Both Constructor and destructor can be defined as public, private, or protected. But it is better to declare the constructor as public.
-- The constructor can have parameters but the destructor doesn’t receive any parameters.
+Certainly! Here is a short summary of what the code does:
+
+The code defines a class called MyClass with a constructor and a destructor.
+The main function creates an object of the MyClass class using the new operator and assigns it to a pointer p. This causes the constructor for the MyClass class to be called.
+The main function then destroys the object using the delete operator. This causes the destructor for the MyClass class to be called.
+The main function returns 0 to indicate that the program ran successfully.
+The purpose of the constructor and destructor in this example is to print a message to the console when the object is created and destroyed. The constructor prints the message "Constructor called", and the destructor prints the message "Destructor called".
