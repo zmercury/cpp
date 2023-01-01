@@ -63,5 +63,9 @@
 |Dec&nbsp;28| Copy Constructor |[Notes](/Notes/December/019_Dec28/)|
 |Dec&nbsp;29| Constructor Overloading |[Notes](/Notes/December/020_Dec29/)|
 
+### January
+
+|Jan&nbsp;1|  |[Notes](/Notes/January/000_Jan1/)|
+
 
 ###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
