@@ -49,3 +49,16 @@ int main() {
     return 0;
 }
 ```
+
+### Dry run (Sum of all the elements of an array)
+
+|marks[]|i=0 < 8 ++| sum = sum + marks[i] | sum|
+|---|---|---|---|
+|47|i = 0 (true)|sum = 0 + 47|47|
+|34|i = 1 (true)|sum = 47 + 34|81|
+|372|i = 2 (true)|sum = 81 + 372|453|
+|62|i = 3 (true)|sum = 453 + 62|515|
+|52|i = 4 (true)|sum = 515 + 52|567|
+|42|i = 5 (true)|sum = 567 + 42|609|
+|52|i = 6 (true)|sum = 609 + 52|661|
+|62|i = 7 (true)|sum = 661 + 62|723|
