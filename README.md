@@ -65,7 +65,7 @@
 
 ### January
 
-|Jan&nbsp;1|  |[Notes](/Notes/January/000_Jan1/)|
+|Jan&nbsp;1| Array |[Notes](/Notes/January/000_Jan1/)|
 
 
 ###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
