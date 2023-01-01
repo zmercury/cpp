@@ -52,7 +52,7 @@ int main() {
 
 ### Dry run (Sum of all the elements of an array)
 
-|marks[]|i=0 < 8 ++| sum = sum + marks[i] | sum|
+|marks[i]|i=0 < 8 ++| sum = sum + marks[i] | sum|
 |---|---|---|---|
 |47|i = 0 (true)|sum = 0 + 47|47|
 |34|i = 1 (true)|sum = 47 + 34|81|
