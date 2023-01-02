@@ -1,8 +1,8 @@
 ### January 2
 
-```cpp
-//write a program to enter 5 marks of 5 students using array within class
 
+### 1. Write a program to enter 5 marks of 5 students using array within class
+```cpp
 #include <iostream>
 using namespace std;
 
