@@ -1,6 +1,6 @@
 ### Jan 2
 
-## Assignment
+## Classwork
 
 #### 1. Write a program that takes 5 students marks as input and displays it in ascending order.
 
