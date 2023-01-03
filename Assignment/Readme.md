@@ -35,7 +35,7 @@ class studentMarks {
         void showOutput() {
             cout << "Marks in the ascending order are: " << endl;
             for (i = 0; i < 5; i++){
-                cout << arr[i] << endl;   
+                cout << arr[i] << " ";   
             }
         }
 };
@@ -49,4 +49,16 @@ int main(){
 
     return 0;
 }
+```
+
+#### Output
+
+```md
+> Enter marks of 1 student: 4
+> Enter marks of 2 student: 8
+> Enter marks of 3 student: 9
+> Enter marks of 4 student: 6
+> Enter marks of 5 student: 4
+> Marks in the ascending order are:
+> 4  4  6  8  9
 ```
