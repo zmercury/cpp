@@ -4,14 +4,31 @@
 
 Arrangement of data elements or numbers in the form of rows and columns.
 
-
 $$\begin{bmatrix}
  00 & 01 & 02 \\
  10 & 11 & 12 \\
  20 & 21 & 23
 \end{bmatrix}$$
 
+```cpp
+// program that demonstrates how an array works
+#include <iostream>
+using namespace std;
 
+int main() {
+    int marks[3][3];
+
+    for(int i = 0; i < 3; i++) {
+        for(int j = 0; j < 3; j++) {
+            marks[i][j] = (i + 1) * (j + 1);
+            cout << marks[i][j] << "\t";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+```
 
 ```cpp
 // Program that takes input into a 2 dimensional array and prints it.
