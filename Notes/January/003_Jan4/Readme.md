@@ -2,8 +2,19 @@
 
 ## 3-Dimensional Array
 
+Arrangement of data elements or numbers in the form of rows and columns.
+
+
+$$\begin{bmatrix}
+ 00 & 01 & 02 \\
+ 10 & 11 & 12 \\
+ 20 & 21 & 23
+\end{bmatrix}$$
+
+
+
 ```cpp
-// Program that takes input into a 3 dimensional array and prints it.
+// Program that takes input into a 2 dimensional array and prints it.
 
 #include <iostream>
 using namespace std;
