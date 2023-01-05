@@ -31,5 +31,15 @@ int main() {
 }
 ```
 
+## Presentation
+
+1. 8 x 8 rule (Maximum 8 lines, 8 Words)
+1. Slide Number
+1. Intro E' End
+1. Summary
+1. Reference
+1. Syntax
+1. Diagram
+1. Examples
 
 
