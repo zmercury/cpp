@@ -71,7 +71,7 @@
 |Jan&nbsp;2| Classwork (Write a program using array to input and display the marks of 5 students within a class) |[Notes](/Notes/January/001_Jan2/)|
 |Jan&nbsp;3| Board Test |[Notes](/Notes/January/002_Jan3/)|
 |Jan&nbsp;4| 3-D Array |[Notes](/Notes/January/003_Jan4/)|
-|Jan&nbsp;5| |[Notes](/Notes/January/004_Jan5/)|
+|Jan&nbsp;5| 2D Array (Multi IO)|[Notes](/Notes/January/004_Jan5/)|
 
 
 ###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
