@@ -41,5 +41,3 @@ int main() {
 1. Syntax
 1. Diagram
 1. Examples
-
-
