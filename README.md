@@ -72,6 +72,8 @@
 |Jan&nbsp;3| Board Test |[Notes](/Notes/January/002_Jan3/)|
 |Jan&nbsp;4| 3-D Array |[Notes](/Notes/January/003_Jan4/)|
 |Jan&nbsp;5| 2D Array (Multi IO)|[Notes](/Notes/January/004_Jan5/)|
+|Jan&nbsp;31|Base Class and Derived Class|[Notes](/Notes/January/005_Jan31/)|
+
 
 
 ###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
