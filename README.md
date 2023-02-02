@@ -74,6 +74,13 @@
 |Jan&nbsp;5| 2D Array (Multi IO)|[Notes](/Notes/January/004_Jan5/)|
 |Jan&nbsp;31|Base Class and Derived Class|[Notes](/Notes/January/005_Jan31/)|
 
+### February
+
+|Date|Content|Link|
+|---|---|---|
+|Feb&nbsp;1|Presentation|[Notes](/Notes/February/)|
+|Feb&nbsp;2|Presentation|[Notes](/Notes/February/001_Feb2/)|
+
 
 
 ###### Copyright (c) 2022 [Mercury / Jupiter / Mxvenus](https://nikhilbastola.com.np) 
