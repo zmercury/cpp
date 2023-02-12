@@ -87,12 +87,40 @@ Class F: public C {
 
 ```mermaid
 stateDiagram-v2
-   [*] --> New
-   New --> Ready: admitted
-   Ready --> Running: scheduler dispatch
-   Running --> Ready: interrupt
-   Running --> Waiting: I/O or event wait
-   Waiting --> Ready: I/O or event completion
-   Running --> Terminated: exit
-   Terminated --> [*]
+    A[A] --> B{D};
+    A[B] --> B{D};
+    A[C] --> B{D};
+    C[E] --> B{D};
+    C[F] --> B{D};
 ```
+
+#### 5. Hybrid
+
+```cpp
+Class A {
+    //Statements
+    //Functions or Data Members
+}
+
+Class B {
+    //Statements
+    //Functions or data members 
+}
+
+Class C {
+    //Statements 
+}
+
+Class D: public A,B,C {
+    //Statements
+}
+
+Class E: public D {
+    //Statements
+}
+
+Class F: public D {
+    //Statements
+}
+```
+
