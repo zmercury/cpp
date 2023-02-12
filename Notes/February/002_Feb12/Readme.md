@@ -55,3 +55,32 @@ Class C : public B {
 }
 ```
 
+#### Hierarchical
+
+```cpp
+Class A {
+    //Statements
+    //Functions or Data Members
+}
+
+Class B: public A {
+    //Statements
+    //Functions or data members 
+}
+
+Class C : public A {
+    //Statements 
+}
+
+Class D: public B {
+    //Statements
+}
+
+Class E: public B {
+    //Statements
+}
+
+Class F: public C {
+    //Statements
+}
+```
