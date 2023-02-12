@@ -86,12 +86,11 @@ Class F: public C {
 ```
 
 ```mermaid
-stateDiagram-v2
-    A[A] --> B{D};
-    A[B] --> B{D};
-    A[C] --> B{D};
-    C[E] --> B{D};
-    C[F] --> B{D};
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
 
 #### 5. Hybrid
