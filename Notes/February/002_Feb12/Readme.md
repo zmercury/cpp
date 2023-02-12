@@ -124,3 +124,49 @@ Class F: public D {
 }
 ```
 
+#### Example of Multilevel inheritance
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class firstClass {
+    public:
+        int numOne;
+};
+
+class secondClass {
+    public:
+        int numTwo;
+};
+
+class thirdClass {
+    public:
+        int numThree;
+};
+
+class mainClass: public firstClass, public secondClass, public  thirdClass {
+    public:
+        int numFour;
+        
+        void mainFunction() {
+            cout << numOne << " " << numTwo << " " << numThree << " " << numFour << endl;
+        }
+};
+
+int main() {
+    mainClass mtn;
+
+    mtn.numOne = 10;
+    mtn.numTwo = 20;
+    mtn.numThree = 30;
+    mtn.numFour = 40;
+
+    mtn.mainFunction();
+
+    return 0;
+}
+```
+
+
+
