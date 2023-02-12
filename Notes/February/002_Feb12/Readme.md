@@ -2,7 +2,7 @@
 
 ### Inheritance 
 
-#### Single Inherirance 
+#### 1. Single Inherirance 
 
 > Syntax
 ```cpp
@@ -16,7 +16,7 @@ Class B: public A {
 ```
 
 
-#### Multiple Inheritance 
+#### 2. Multiple Inheritance 
 
 > Syntax
 
@@ -36,7 +36,7 @@ Class C : public A,B {
 }
 ```
 
-#### Multilevel
+#### 3. Multilevel
 > Syntax
 
 ```cpp
@@ -55,7 +55,7 @@ Class C : public B {
 }
 ```
 
-#### Hierarchical
+#### 4. Hierarchical
 
 ```cpp
 Class A {
@@ -83,4 +83,16 @@ Class E: public B {
 Class F: public C {
     //Statements
 }
+```
+
+```mermaid
+stateDiagram-v2
+   [*] --> New
+   New --> Ready: admitted
+   Ready --> Running: scheduler dispatch
+   Running --> Ready: interrupt
+   Running --> Waiting: I/O or event wait
+   Waiting --> Ready: I/O or event completion
+   Running --> Terminated: exit
+   Terminated --> [*]
 ```
