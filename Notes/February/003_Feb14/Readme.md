@@ -54,3 +54,38 @@ int main() {
 > Enter the value of Y: 20
 > Sum = 30
 ```
+
+### Important Question for Exam
+
+#### 1. Write a program in C++ to display mobile name and its cost with tax using single inheritance 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Mobile {
+    public:
+        char m_name[25] = "Samsung S23 Ultra";
+        int m_cost = 209999;
+
+};
+
+class Samsung: public Mobile {
+    public:
+        int Tax = 0.13 * m_cost;
+        void totalCost () {
+            cout << "Total cost after tax = Rs. " << (m_cost - Tax);
+        }
+};
+
+int main() {
+    Samsung sng;
+
+    cout << "Model = " << sng.m_name << endl;    
+    cout << "Cost = Rs. " << sng.m_cost << endl;
+
+    sng.totalCost();
+
+    return 0;
+}
+```
