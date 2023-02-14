@@ -74,7 +74,8 @@ class Samsung: public Mobile {
     public:
         int Tax = 0.13 * m_cost;
         void totalCost () {
-            cout << "Total cost after tax = Rs. " << (m_cost - Tax);
+            cout << "Tax = " << Tax << endl;
+            cout << "Total cost after tax = Rs. " << (m_cost + Tax);
         }
 };
 
