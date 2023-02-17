@@ -52,8 +52,7 @@ int main() {
 
 ```mermaid
   graph TD;
-      A-->D;
-      B-->D;
+      A-->B;
       C-->D;
       D-->E;
       D-->F;
