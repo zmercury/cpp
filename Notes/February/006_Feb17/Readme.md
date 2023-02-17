@@ -53,9 +53,8 @@ int main() {
 ```mermaid
   graph TD;
       A-->B;
-      C-->D;
-      D-->E;
-      D-->F;
+      C;
+      B-->D;
 ```
 
 ```cpp
