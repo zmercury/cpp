@@ -52,10 +52,10 @@ int main() {
 
 ```mermaid
   graph TD;
-      Grandpa<--Dad;
+      Grandpa-->Dad;
       Mom;
-      Dad<--Son;
-      Mom<--Son;
+      Dad-->Son;
+      Mom-->Son;
 ```
 
 ```cpp
