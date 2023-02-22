@@ -46,6 +46,27 @@ int main()
 ### 2. Write a program in cpp to show how to call parametarized constructor of child class when parent class constructor is called
 
 ```cpp
+#include <iostream>
+using namespace std;
+
+class Dad {
+public:
+    Dad(int x) {
+        cout << "Dad constructor called with x = " << x << endl;
+    }
+};
+
+class Child : public Dad {
+public:
+    Child(int x, int y) : Dad(x) {
+        cout << "Child constructor called with y = " << y << endl;
+    }
+};
+
+int main() {
+    Child obj(1, 2); 
+    return 0;
+}
 
 ```
 
