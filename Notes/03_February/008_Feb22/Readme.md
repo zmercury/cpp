@@ -43,6 +43,12 @@ int main()
 
 ```
 
+### 2. Write a program in cpp to show how to call parametarized constructor of child class when parent class constructor is called
+
+```cpp
+
+```
+
 
 ## Execution Sequence of Constructor and Destructor in Inheritance
 
@@ -92,3 +98,83 @@ int main() {
 }
 ```
 
+### 2. Program that shows the behavior of Constructor and Destructor in Single Inheritance
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class Dad{
+    public:
+        Dad() {
+            cout << "Calling default constructor of Dad class" << endl;
+        }
+
+        ~Dad() {
+            cout << "Calling destructor of Dad class" << endl;
+        }
+};
+
+class Child: public Dad {
+    public:
+        Child() {
+            cout << "Calling default constructor of Child class" << endl;
+        }
+
+        ~Child() {
+            cout << "Calling destructor of Child class" << endl;
+        }
+};
+
+int main() {
+    Child a;
+    return 0;
+}
+```
+
+### 3. Program that shows the behavior of Constructor and Destructor in Multilevel Inheritance
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class grandDad{
+    public:
+        grandDad() {
+            cout << "Calling default constructor of grandDad class" << endl;
+        }
+
+        ~grandDad() {
+            cout << "Calling destructor of grandDad class" << endl;
+        }
+};
+
+class Dad: public grandDad {
+    public:
+        Dad() {
+            cout << "Calling default constructor of Dad class" << endl;
+        }
+
+        ~Dad() {
+            cout << "Calling destructor of Dad class" << endl;
+        }
+};
+
+class Child: public Dad {
+    public:
+        Child() {
+            cout << "Calling default constructor of Child class" << endl;
+        }
+
+        ~Child() {
+            cout << "Calling destructor of Child class" << endl;
+        }
+};
+
+int main() {
+    Child a;
+    return 0;
+}
+```
+
+### 4. Program that shows the behavior of Constructor and Destructor in Hierarchical Inheritance
