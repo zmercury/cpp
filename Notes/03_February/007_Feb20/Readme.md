@@ -11,42 +11,29 @@ If the object of derived class needs to access one of the same named member func
 #include <iostream>
 using namespace std;
 
-class GrandFather{
-    public:
-        void hi() {
-            cout << "Hi, Grandpa!" << endl;
-        }
+class Dad
+{
+public:
+    void hello()
+    {
+        cout << "Hello child !" << endl;
+    }
 };
 
-class Dad: public GrandFather {
-    public:
-        void namaste() {
-            cout << "Hi, Grandpa!" << endl;
-        }
+class Child : public Dad
+{
+public:
+    void hello()
+    {
+        cout << "Hello cutie pie !!" << endl;
+    }
 };
 
-class Mom {
-    public:
-        void namaste() {
-            cout << "Namaste!" << endl;
-        }
-};
-
-class Son: public Mom, public Dad {
-    public: 
-        void me() {
-            cout << "Hello Myself!" << endl;
-        }
-};
-
-int main() {
-    Son st;
-
-    st.hi();
-    st.namaste();
-    st.namaste();
-    st.me();
-
+int main()
+{
+    Child c1;
+    c1.hello();
+    c1.Dad::hello();
     return 0;
 }
 ```
