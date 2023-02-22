@@ -44,7 +44,51 @@ int main()
 ```
 
 
+## Execution Sequence of Constructor and Destructor in Inheritance
 
 
+### 1. Program that shows the behavior of Constructor and Destructor in Multiple Inheritance
 
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class grandDad{
+    public:
+        grandDad() {
+            cout << "Calling default constructor of grandDad class" << endl;
+        }
+
+        ~grandDad() {
+            cout << "Calling destructor of grandDad class" << endl;
+        }
+};
+
+class Dad {
+    public:
+        Dad() {
+            cout << "Calling default constructor of Dad class" << endl;
+        }
+
+        ~Dad() {
+            cout << "Calling destructor of Dad class" << endl;
+        }
+};
+
+class Child: public grandDad, public Dad {
+    public:
+        Child() {
+            cout << "Calling default constructor of Child class" << endl;
+        }
+
+        ~Child() {
+            cout << "Calling destructor of Child class" << endl;
+        }
+};
+
+int main() {
+    Child a;
+    return 0;
+}
+```
 
