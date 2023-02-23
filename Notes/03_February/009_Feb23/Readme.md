@@ -59,6 +59,12 @@ int main() {
 }
 ``` 
 
+```md
+# Output
+> I'm a student and learning!
+> Hello! I am a teacher!
+```
+
 #### 2. Program that demonstrates the usage of containership 
 
 ```cpp
@@ -102,3 +108,10 @@ int main() {
 }
 ```
 
+```md
+# Output
+> I'm a student and learning!
+> Enter teacher's name: Vijaya
+> The roll number of student is 20
+> The name of the teacher is: Vijaya
+```
