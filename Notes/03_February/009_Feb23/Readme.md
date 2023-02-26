@@ -62,11 +62,13 @@ int main() {
 }
 ```
 
+
 **Explaination**: In this example, we have two classes *Rectangle* and *Square*. The *Square* class is a container class that contains an instance of the *Rectangle* class. The *Rectangle* class is the contained class.
 
 We create a *Square* object named *square* and set *its side* member variable to 5. We then set *the width* and *height* member variables of the *Rectangle* object contained within *square* to the same value as *side*.
 
 Finally, we print out the values of the *side*, *width*, and *height* member variables to the console.
+
 
 #### 1. Differentiate between inheritance and containership in c++?
 |Inheritance|Containership|
