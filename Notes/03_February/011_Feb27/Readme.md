@@ -63,3 +63,14 @@ int main() {
 > Name: Shyam
 ```
 
+## Static Data Member
+
+Declaration of Static Data Member is done inside the class  <br>
+```cpp
+static int a;
+```
+Definition is done outside the class. <br>
+```cpp
+int A:: a = 45;
+```
+
