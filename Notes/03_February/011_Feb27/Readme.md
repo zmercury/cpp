@@ -74,3 +74,21 @@ Definition is done outside the class. <br>
 int A:: a = 45;
 ```
 
+### Static Data Members without using static member function
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class StaticDemo {
+    public:
+        static int a;  //Declaration
+};
+
+int StaticDemo::a = 5; //Defination
+
+int main() {
+        StaticDemo::a;
+        return 0;
+}
+```
