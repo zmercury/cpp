@@ -46,3 +46,19 @@ int main() {
     return 0;
 }
 ```
+
+```md
+# Output
+
+> Enter the number of students: 2
+> Enter roll number: 1
+> Enter name: Ram
+> Enter roll number: 2
+> Enter name: Shyam
+> Displaying the data of student(s): 
+> Roll no. = 1
+> Name: Ram
+> Displaying the data of student(s): 
+> Roll no. = 2
+> Name: Shyam
+```
