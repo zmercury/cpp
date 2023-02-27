@@ -92,3 +92,33 @@ int main() {
         return 0;
 }
 ```
+
+```md
+# Output
+
+> a = 5
+```
+
+### Static Data Members using static member function
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class StaticDemo {
+    public:
+        static int a;  //Declaration
+        
+        static void output() {
+            cout << "a = " << a << endl;
+        }
+};
+
+int StaticDemo::a = 5; //Defination
+
+int main() {
+    StaticDemo::output();
+
+    return 0;
+}
+```
