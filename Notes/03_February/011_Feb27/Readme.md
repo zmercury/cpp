@@ -38,8 +38,9 @@ int main() {
         stu[i].getData();
     }
 
+    cout << "Displaying the data of student(s): " << endl;
+
     for (int i = 0; i < n; i++) {
-        cout << "Displaying the data of student(s): " << endl;
         stu[i].showData();
     }
 
@@ -58,7 +59,7 @@ int main() {
 > Displaying the data of student(s): 
 > Roll no. = 1
 > Name: Ram
-> Displaying the data of student(s): 
 > Roll no. = 2
 > Name: Shyam
 ```
+
