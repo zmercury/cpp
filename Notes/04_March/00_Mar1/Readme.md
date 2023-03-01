@@ -21,12 +21,7 @@ class class_Name {
     }
 }
 ```
-
-```mermaid
-sequence diagram;
-    participant Class A
-```
-
+[pic](1.png)
 
 #### Example
 
