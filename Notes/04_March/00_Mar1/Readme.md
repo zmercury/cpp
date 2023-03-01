@@ -14,3 +14,22 @@ A Friend function is a normal function with special access previlages
 ## Friend Class
 A friend class is a class which can excess private or protected members of other class in which it is declared as friend
 
+```cpp
+class class_Name {
+    friend return_type function name(argument) {
+        
+    }
+}
+```
+
+```mermaid
+graph TD;
+    participant Class A
+```
+
+
+#### Example
+
+```cpp
+
+```
