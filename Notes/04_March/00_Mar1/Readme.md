@@ -23,7 +23,7 @@ class class_Name {
 ```
 
 ```mermaid
-sequence diagram
+sequence diagram;
     participant Class A
 ```
 
