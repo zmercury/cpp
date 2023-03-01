@@ -21,7 +21,7 @@ class class_Name {
     }
 }
 ```
-<img src="./1.png" style="width: 300px;">
+<img src="./1.png" style="width: 300px;>
 
 #### Example
 
