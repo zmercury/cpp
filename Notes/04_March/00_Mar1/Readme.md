@@ -11,3 +11,6 @@ A Friend function is a normal function with special access previlages
 * It can access non-public members of a class 
 * It helps to add additional functionality that is not used by class generally
 
+## Friend Class
+A friend class is a class which can excess private or protected members of other class in which it is declared as friend
+
