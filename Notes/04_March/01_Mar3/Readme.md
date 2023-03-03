@@ -6,6 +6,8 @@
 
 
 ### 2. Overriding
+The process of redefining the existing data members present in superClass from a base class using inheritance.
+
 ```cpp
 superClass{
     methodOne() {
