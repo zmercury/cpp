@@ -11,6 +11,38 @@ A Friend function is a normal function with special access previlages
 * It can access non-public members of a class 
 * It helps to add additional functionality that is not used by class generally
 
+#### Example
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class num{
+  private:
+    int a=55,b;
+
+  public:
+    void getnum(){
+      b = 100;
+    }
+
+    friend int add(num obj);
+};
+
+int add(num obj) {
+  return(obj.a+obj.b);
+}
+
+int main() {
+  num n1;
+  
+  n1.getnum(); 
+  cout<<"sum="<<add(n1)<<endl;
+  
+  return 0;
+}
+```
+
 ## Friend Class
 A friend class is a class which can excess private or protected members of other class in which it is declared as friend
 
@@ -21,7 +53,7 @@ class class_Name {
     }
 }
 ```
-<img src="./1.png" style="width: 300px;>
+<img src="./1.png" style="width: 300px;">
 
 #### Example
 
