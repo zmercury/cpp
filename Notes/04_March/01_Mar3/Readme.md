@@ -31,10 +31,10 @@ subClass: public superClass{
 
 ```mermaid
     graphTD;
-        Polymorphism-->Compile Time;
+        Polymorphism-->CompileTime;
         Polymorphism-->Runtime;
-        Compile Time-->Function Overloading ;
-        Compile Time-->Operator Overloading;
-        Runtime-->Virtual Function;
-        Runtime-->Function Overriding;
+        CompileTime-->FunctionOverloading ;
+        CompileTime-->OperatorOverloading;
+        Runtime-->VirtualFunction;
+        Runtime-->FunctionOverriding;
 ```
