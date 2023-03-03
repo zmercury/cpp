@@ -28,3 +28,13 @@ subClass: public superClass{
     }
 };
 ```
+
+```mermaid
+    graphTD;
+        Polymorphism-->Compile Time
+        Polymorphism-->Runtime
+        Compile Time-->Function Overloading 
+        Compile Time-->Operator Overloading
+        Runtime-->Virtual Function
+        Runtime-->Function Overriding
+```
