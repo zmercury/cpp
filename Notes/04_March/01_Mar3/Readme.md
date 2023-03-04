@@ -38,3 +38,29 @@ subClass: public superClass{
         Runtime-->VirtualFunction;
         Runtime-->FunctionOverriding;
 ```
+
+```cpp
+#include <iostream>
+using namespace std;
+  
+class Parent {
+public:
+     void hello(){
+        cout << "Base Function" << endl;
+    }
+};
+  
+class Child : public Parent {
+public:
+    void hello(){
+        cout << "Derived Function" << endl;
+    }
+};
+  
+int main() {
+    Child he;
+    he.hello();
+
+    return 0;
+}
+```
