@@ -122,4 +122,16 @@ int main() {
 | Inheritance | Can be inherited by derived classes, which can override the virtual function | Must be inherited by derived classes, which must override the pure virtual function |
 | Syntax | `virtual return_type function_name(parameters) { ... }` | `virtual return_type function_name(parameters) = 0;` |
 
+### Example of virtual function
+```cpp
+
+```
+
+### Example of pure virtual function
+```cpp
+
+```
+
+
+
 
