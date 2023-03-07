@@ -124,12 +124,68 @@ int main() {
 
 ### Example of virtual function
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
+class Teacher {
+    public:
+        virtual void task() = 0;
+};
+
+class Student : public Teacher {
+    void task() {
+        cout << "student is learning....." << endl;
+    }
+};
+
+int main() {
+    Teacher *t1;
+    Student st1;
+    
+    t1 = &st1;
+    t1->task();
+
+    return 0;
+}
 ```
 
 ### Example of pure virtual function
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+class Shape {
+  public:
+    virtual float area() = 0; // Pure virtual function
+};
+
+class Rectangle : public Shape {
+  private:
+    float length;
+    float width;
+  public:
+    Rectangle(float l, float w) {
+      length = l;
+      width = w;
+    }
+    float area() {
+      return length * width;
+    }
+};
+
+int main() {
+    float m, n;
+    cout << "Enter the length and breath of rectangle: ";
+    cin >> m >> n;
+
+    Rectangle r(m,n);
+    Shape *shape = &r;
+
+    cout << "Area of rectangle = " << shape->area() << "cm2"<< endl;
+    
+    return 0;
+}
 ```
 
 
