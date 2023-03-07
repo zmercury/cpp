@@ -27,8 +27,10 @@ class Rectangle : public Shape {
 
 int main() {
     float m, n;
-    cout << "Enter the length and breath of rectangle: ";
-    cin >> m >> n;
+    cout << "Enter the length of rectangle: ";
+    cin >> m;
+    cout << "Enter the breath of rectangle: ";
+    cin >> n;
 
     Rectangle r(m,n);
     Shape *shape = &r;
