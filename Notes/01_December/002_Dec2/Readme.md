@@ -22,7 +22,7 @@
 - float
 - double
 - wide
-- char
+- string
 
 ### 2. User Defined
 - Structure

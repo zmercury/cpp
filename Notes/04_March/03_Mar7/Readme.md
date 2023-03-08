@@ -6,20 +6,18 @@
 
 using namespace std;
 
-class Shape {
-  public:
-    virtual float area() = 0;
-};
-
-class Rectangle : public Shape {
+class Rectangle {
   public:
     float width;
     float length;
+
+    virtual float area() = 0;
 
     Rectangle(float l, float w) {
       length = l;
       width = w;
     }
+    
     float area() {
       return length * width;
     }
@@ -33,7 +31,7 @@ int main() {
     cin >> n;
 
     Rectangle r(m,n);
-    Shape *shape = &r;
+    Rectangle *shape = &r;
 
     cout << "Area of rectangle = " << shape->area() << "cm2"<< endl;
     
