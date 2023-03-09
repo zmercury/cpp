@@ -50,7 +50,7 @@ using namespace std;
 
 class Teacher {
     public:
-        virtual void task() = 0;
+        virtual void task();
 };
 
 class Student : public Teacher {
@@ -129,7 +129,7 @@ using namespace std;
 
 class Teacher {
     public:
-        virtual void task() = 0;
+        virtual void task() {};
 };
 
 class Student : public Teacher {
