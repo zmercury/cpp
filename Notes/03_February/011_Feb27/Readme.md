@@ -88,7 +88,7 @@ class StaticDemo {
 int StaticDemo::a = 5; //Defination
 
 int main() {
-        StaticDemo::a;
+        cout << "a = " << StaticDemo::a;
         return 0;
 }
 ```
