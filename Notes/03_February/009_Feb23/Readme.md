@@ -160,8 +160,8 @@ int main() {
 
 ```md
 # Output
-> I'm a student and learning!
-> Enter teacher's name: Vijaya
+> Enter the roll number of student: 20
+> Enter teacher's name: Bijaya
 > The roll number of student is 20
-> The name of the teacher is: Vijaya
+> The name of the teacher is: Bijaya
 ```
