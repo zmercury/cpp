@@ -30,4 +30,78 @@ Some of the operators cannot be overloaded<br>
 1. Scope resolution operator (::)
 1. sizeof();
 1. Ternary Operators ( ? :)
-1. 
+
+
+### File Handeling
+
+```cpp
+#include <iostream>
+//provides ofstream and ifstream functionality
+#include <fstream>
+using namespace std;
+
+int main() {
+    //used to create a new file and write contents to it
+    ofstream myFile("./tempfiles/test.txt");
+
+    myFile << "Hello, world!" << endl;
+    myFile.close();
+    
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    string stringOne;
+    ifstream myFile("./tempfiles/hello.txt");
+
+    while (getline(myFile, stringOne)) {
+        cout << stringOne;
+    }
+
+    myFile.close();
+
+    return 0;
+}
+```
+
+### Fstream
+This header file used for ofstream and ifstream in the program
+
+### ofstream 
+Used to create and write content in a file
+
+### ifstream
+opening a file by name and display the data
+
+### getline
+to read data from the file line by line by making use of string variable defined 
+
+### close
+closing the file that was opened to write the file contents into the file 
+
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ofstream filestream("helloThree.txt");
+
+    if(filestream.is_open()) {
+        filestream << "Line 1" << endl;
+        filestream << "Line 2" << endl;
+        filestream.close();
+    } else {
+        cout << "File has not been created" << endl;
+    }
+
+    return 0;
+}
+```
